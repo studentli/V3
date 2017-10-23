@@ -1,0 +1,475 @@
+[ 2017-09-29T09:15:52+08:00 ] 127.0.0.1 /admdgjmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T09:15:53+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T09:16:03+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ot_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0210s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2017-09-29 09:16:03','115.60.187.14','admin','1') [ RunTime:0.0050s ]
+
+[ 2017-09-29T09:16:23+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T09:16:24+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T09:16:24+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T09:16:25+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-09-29 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-09-30 00:00') ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0100s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0070s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0180s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0070s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-29T09:26:07+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 437 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 442 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T09:26:07+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:05:25+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:05:26+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-09-29 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-09-30 00:00') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0100s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0060s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0080s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0060s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-29T10:05:26+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T10:05:26+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:05:34+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-29T10:05:34+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T13:46:41+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T13:46:41+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T13:46:42+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-09-29 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-09-30 00:00') ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0100s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0100s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0080s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0100s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: i D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T13:46:42+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T14:23:12+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\mdgj\snadmin\Home\Controller\IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\mdgj\snadmin\Runtime\Cache\Home\362f3bbf90982055569caf6663022317.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T14:23:12+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" src="__ROOT__/js/jquery.js"></script>
+
+<link rel="stylesheet" href="/zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css"/>
+<script type=text/javascript src="/zTree_v3/js/jquery.min.js"></script>
+<script type="text/javascript" src="/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    
+    <script type=text/javascript>
+var setting = { 
+  view: { 
+    showLine: true 
+  }, 
+  data: { 
+    simpleData: { 
+      enable: true 
+    } 
+  } 
+}; 
+
+var zNodes =[
+  { id:1, pId:0, name:"父節點1 - 展開", open:true},
+  { id:11, pId:1, name:"父節點11 - 摺疊"},
+  { id:111, pId:11, name:"葉子節點111"},
+  { id:112, pId:11, name:"葉子節點112"},
+  { id:113, pId:11, name:"葉子節點113"},
+  { id:114, pId:11, name:"葉子節點114"},
+  { id:12, pId:1, name:"父節點12 - 摺疊"},
+  { id:121, pId:12, name:"葉子節點121"},
+  { id:122, pId:12, name:"葉子節點122"},
+  { id:123, pId:12, name:"葉子節點123"},
+  { id:124, pId:12, name:"葉子節點124"},
+  { id:13, pId:1, name:"父節點13 - 沒有子節點", isParent:true},
+  { id:2, pId:0, name:"父節點2 - 摺疊"},
+  { id:21, pId:2, name:"父節點21 - 展開", open:true},
+  { id:211, pId:21, name:"葉子節點211"},
+  { id:212, pId:21, name:"葉子節點212"},
+  { id:213, pId:21, name:"葉子節點213"},
+  { id:214, pId:21, name:"葉子節點214"},
+  { id:22, pId:2, name:"父節點22 - 摺疊"},
+  { id:221, pId:22, name:"葉子節點221"},
+  { id:222, pId:22, name:"葉子節點222"},
+  { id:223, pId:22, name:"葉子節點223"},
+  { id:224, pId:22, name:"葉子節點224"},
+  { id:23, pId:2, name:"父節點23 - 摺疊"},
+  { id:231, pId:23, name:"葉子節點231"},
+  { id:232, pId:23, name:"葉子節點232"},
+  { id:233, pId:23, name:"葉子節點233"},
+  { id:234, pId:23, name:"葉子節點234"},
+  { id:3, pId:0, name:"父節點3 - 沒有子節點", isParent:true}
+];
+
+
+$(document).ready(function(){
+var $user1 = $('#user1').val();
+  $.ajax({
+    type: "post",
+    dataType : "json",
+    global : false,
+    url : "/index.php/Home/Common/getTree",
+    data : {
+    user1 : $user1
+    },
+    success : function(data, textStatus) {
+      if (data.status == 0)
+      {
+        zNodes1 = data.data;
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes1);
+      } else {
+        alert("您還沒有");
+      }
+      
+      return ;
+    }
+    
+  });
+  
+  //$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+});
+
+
+
+$(function(){
+
+
+
+$('#btn').click(function(){
+
+var $user = $('#user').val();
+$.ajax({
+    type: "post",
+    dataType : "json",
+    global : false,
+
+    url : "/index.php/Home/Common/getTreeso",
+    data : {
+    user : $user
+    },
+    success : function(data, textStatus) {
+      if (data.status == 0)
+      {
+      //alert(data.nr);
+      
+        zNodes1 = data.data;
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes1);
+      } else {
+        alert(data.data);
+      }
+      
+      return ;
+    }
+    
+  });
+
+
+
+})
+
+
+})
+
+
+
+
+</script>
+    <!-- Page title -->
+    <title>胜泰金融</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+<style type="text/css">
+#header{background:#fff;height:0;z-index:99!important}
+.content{height:0!important}
+.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;
+background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,
+ endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,
+ endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;
+ border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+</head>
+<body style="background:#fff;">
+<include file="User/Home/View/default/top.html" />
+<include file="User/Home/View/default/left.html" />
+<!-- Main Wrapper -->
+
+
+
+
+ <div id="wrapper" style="min-height: 856px;">
+  <div class="normalheader">
+    <div class="hpanel">
+      <div class="panel-body"> <a class="small-header-action" href="">
+        <div class="clip-header"> <i class="fa fa-arrow-up"></i> </div>
+        </a>
+        <div id="hbreadcrumb" class="pull-right m-t-lg">
+          <ol class="hbreadcrumb breadcrumb">
+            <li><a href="">首页</a> </li>
+            <li class="active"> <span><a>经理列表</a></span> </li>
+          </ol>
+        </div>
+         <h2 class="font-light m-b-xs">推荐列表 </h2>
+        
+    </div>
+  </div>
+  <div class="content">
+    <div class="row">
+      <div class="col-lg-12">
+            
+            <div class="hpanel">
+                <div class="panel-heading">
+                  <div class="panel-tools"> 
+<form action="{:U('/Home/Myuser/index')}" method="post">
+                     <input name="user" id="seav" value="">
+
+                      <input name="提交" type="submit" id="sea" value="查询">
+</form>
+                  
+
+
+                    <a class="showhide"><i class="fa fa-chevron-up"></i></a> <a class="closebox"><i class="fa fa-times"></i></a> </div>
+                  我推荐的用户</div>
+                <div class="panel-body">
+                  <div class="table-responsive">
+                    <div id="example_wrapper" class="dataTables_wrapper no-footer"><div id="example_processing" class="dataTables_processing" style="display: none;">内容加载中..</div><!-- added by skyrim -->
+					<style>
+					.form-control-not-full {
+						background-color: #fff;
+						background-image: none;
+						border: 1px solid #ccc;
+						border-radius: 4px;
+						box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+						color: #555;
+						font-size: 14px;
+						height: 34px;
+						line-height: 1.42857;
+						padding: 6px 12px;
+						transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+						width: 100%;
+						
+						margin-bottom: 3em;
+					}
+					</style>
+					
+					<br/>
+					<!-- added ends --><table id="example" cellpadding="1" cellspacing="1" class="table table-bordered table-striped cus_datatable dataTable no-footer" role="grid" aria-describedby="example_info" style="width: 1295px;">
+                      <thead>
+                        <tr role="row"><th class="sorting_asc" rowspan="1" colspan="1" aria-label="用户ID" style="width: 77px;">用户ID</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="昵称" style="width: 58px;">昵称</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="级别" style="width: 58px;">级别</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="邮箱" style="width: 187px;">邮箱</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="推荐人" style="width: 187px;">推荐人</th>
+                        <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="注册经理" style="width: 198px;">注册人</th>
+                        <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="加入时间" style="width: 167px;">加入时间</th></tr>
+                      </thead>
+                      <tbody>
+                       
+                      
+					  
+					  
+					  <foreach name='list' item='v'>
+					  
+					  <tr role="row" class="odd">
+					  <td class="sorting_1">{$v.ue_id}</td>
+					  <td>{$v.ue_theme}</td>
+					  <td>VIP会员</td>
+					  <td>{$v.ue_account}</td>
+					  <td>{$v.ue_accname}</td>
+					  <td>{$v.zcr}</td>
+					  <td>{$v.ue_regtime}</td>
+					  </tr>
+					  </foreach>
+					  </tbody>
+                    </table>
+                    <div class="dataTables_info" id="example_info" role="status" aria-live="polite">{$page}</div>
+                    </div>
+                  </div>
+                </div>   
+              </div>
+      </div>  
+    </div>
+    
+    <!--table--> 
+    
+    <!--table end--> 
+    
+  </div>
+<form method="post" action="user_profile" id="form_user">
+<input type="hidden" name="user_email" id="user_email">
+</form>
+<!-- Vendor scripts --> 
+
+
+</div>
+
+
+
+
+<div class="formbody" style="margin-left:366px;">
+    
+    <div class="core_con">
+  <div style="font-size:9pt;"><form action="" method="get"><input name="user" id="user"  type="hidden" value="{$user}" />會員賬號 : <input id="user" name="user" type="text"> <input name="" type="button" id="btn" value="搜索">
+  <span id="daishu"></span></form></div>
+    <div class="content_wrap">
+  <div class="zTreeDemoBackground ">
+    <ul id="treeDemo" class="ztree"></ul>
+  </div>
+  <!-- <div class="right">
+    <ul class="info">
+      <li class="title"><h2>1、setting 配置信息說明</h2>
+        <ul class="list">
+        <li class="highlight_red">是否顯示連接線請設置 setting.view.showLine 屬性，詳細請參見 API 文檔中的相關內容</li>
+        </ul>
+      </li>
+      <li class="title"><h2>2、treeNode 節點數據說明</h2>
+        <ul class="list">
+        <li>是否顯示連線，不需要 treeNode 節點數據提供特殊設置</li>
+        </ul>
+      </li>
+    </ul>
+  </div> -->
+</div>
+  </div>
+    
+    </div>
+
+<!--gethelp modal end-->
+
+
+
+
+<script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/sweet-alert.min.js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+
+
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+<script type="text/javascript" src="/cssmmm/socket.io.js"></script>
+
+
+
+
+<head>
+<link rel="stylesheet" href="/zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css"/>
+<script type=text/javascript src="/zTree_v3/js/jquery.min.js"></script>
+<script type="text/javascript" src="/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript">
+  $(function(){
+    var height = $(document).height();
+    var height1 = $('#logo').height();
+    $('.profile-picture').height(height);
+    $('#wrapper').height(height+height1+20);
+  });
+
+</script>
+    
+    
+    </div>
+
+</div>
+</body>
+</html>

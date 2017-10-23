@@ -1,0 +1,125 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title><?php echo ($usertitle); ?></title>
+		<script src="/cssmmm/jquery.min.js"></script>
+	</head>
+	<style>
+		*{padding:0;margin:0;}
+		input::-webkit-input-placeholder{color:#fff!important;}
+input::-moz-input-placeholder{color:#fff!important;}
+input::-ms-input-placeholder{color:#fff!important;}
+		a{text-decoration: none;display:block;}
+		li{list-style: none;}
+		img{display:block;margin:0 auto;}
+		.container{width:80%;padding:0 20px;margin:50px auto 0;padding-bottom:20px;
+		background:#fff;opacity:0.7;border-radius:10px;}
+		.container .lg{margin-top: 20px;margin-bottom: 10px;}
+		.container .form-group{width:96%;margin:10px auto; }
+		.fix{clear:both;}
+		.form-group input{width:95%;float:right;font-size:14px;border-radius:25px;padding-left: 5%;
+		line-height:44px;height:44px;background:rgba(255,255,255,0.2);border: 1px solid #fff;color:#fff;}
+		.form-group label{float:left;width:34%;text-align:right;line-height:36px;}
+		.yanzheng input {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    border-radius: 25px;
+    line-height: 44px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #333;}
+
+.form-group label{float:left;width:34%;text-align:right;line-height:36px;font-size: 13px;}
+	</style>
+	<body style="background:url(/wap_img/bg.png) no-repeat;background-attachment: fixed;background-size:cover;width:100%;height:100%;">
+	
+	  <div class="container" style="background: none;padding:0px;opacity: 1;width:90%;margin-top:12%;padding:30px 20px;background: none;padding-top:0px;">
+	  	<div class="lg" style="margin-bottom: 30px;">
+	  		<img src="/wap_img/wap_logo.png" width="180">
+	  	</div>
+	  	<form action="<?php echo U('/Home/Login/retrieve_password');?>" method="post" 
+	  		style="padding-top:20px;border-radius: 8px;padding-bottom: 20px;">
+	  		<div class="form-group">
+	  			
+	  		 <input type="text" name="user" value="" id="user"  placeholder="请输入手机号">
+	  		<div class="fix"></div>
+	  		</div>
+	  		
+	<div class="form-group yanzheng">
+		
+		
+		<button  id="phone-check" style="float:right;background:#4096ee;border:none;color:#fff;font-size:16px;border-radius:25px;width:40%;
+		line-height:44px;height:44px;" type="button" >获取验证码</button>
+		<input style="background: rgba(255,255,255,0.2);" type=""value="" id="smsnum" class="loginuser1" name="smsnum" maxlength="4" placeholder="请输入验证码">
+
+		<div class="fix"></div>
+		</div>
+<script>
+			$("#phone-check").click(function(){
+				var ob = $(this);
+				
+				ob.attr("disabled",true);
+				var phone = $('#user').val();
+				//alert(phone);
+				var reg = /^1[3|4|5|8|7][0-9]\d{8}$/;
+				if(phone == "" || !reg.test(phone)){
+					alert("请正确填写手机号码");
+					ob.removeAttr("disabled");
+					return;
+				}
+				
+				$.post("/Home/login/check_phone",{phone:phone},function(data){
+				//alert(data);
+					if(data>0){
+						alert("发送失败");
+						ob.removeAttr("disabled");
+						return false;
+					}else{
+						alert("发送成功");
+						var i=120;
+						var intval = setInterval(function(){
+							ob.html(i);
+							i--;
+							if(i<0){
+								ob.removeAttr("disabled");
+								ob.html("重新获取");
+								clearInterval(intval);
+							}
+						},1000);
+					}
+				});
+			});
+		</script>
+	  		<div class="form-group">
+	  			
+	  		 <input type="password" name="password" value="" placeholder="请输入密码">
+	  		<div class="fix"></div>
+	  		</div>
+	  		<div class="form-group">
+	  			
+	  		 <input type="password" name="repassword" value="" placeholder="确认密码">
+	  		<div class="fix"></div>
+	  		</div>
+	  		<div class="form-group">
+	  		<input type="submit" name="" value="提 交" style="color:#fff;background:#4096ee;width: 100%;
+    padding: 0;font-size:16px;border:none;">
+	  		<div class="fix"></div>
+	  		</div>
+	  		<div class="form-group">
+	  		<a href="login.html" style="float:right;width:100%;text-align:center;background: #4096ee;color:#fff;
+	  		 border-radius: 25px; line-height: 44px;border:none; height: 44px;font-size:16px;">登录账号</a>
+	  		<!--<!-- <a href="password.html" style="float:right;width:50%;text-align:right;color:red">忘记密码</a> -->
+	  		<div class="fix"></div>
+	  		</div>
+	  		
+	  	</form>
+		</div>	
+	  
+	</body>
+</html>

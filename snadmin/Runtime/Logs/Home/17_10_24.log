@@ -1,0 +1,753 @@
+[ 2017-10-24T15:05:29+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/jsbz_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0013s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` <> '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-10-24T15:05:31+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/jsbz_list_sd/id/2315/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 AND `zt` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A non well formed numeric value encountered /data/wwwroot/v3/snadmin/Home/Common/function.php 第 482 行.
+NOTIC: [8] A non well formed numeric value encountered /data/wwwroot/v3/snadmin/Home/Common/function.php 第 482 行.
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /data/wwwroot/v3/snadmin/Runtime/Cache/Home/daae5cc3834ad762d5c0129667e690bc.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /data/wwwroot/v3/snadmin/Runtime/Cache/Home/daae5cc3834ad762d5c0129667e690bc.php 第 51 行.
+NOTIC: [8] Use of undefined constant b - assumed 'b' /data/wwwroot/v3/snadmin/Runtime/Cache/Home/daae5cc3834ad762d5c0129667e690bc.php 第 87 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' /data/wwwroot/v3/snadmin/Home/Common/function.php 第 790 行.
+NOTIC: [8] Use of undefined constant c - assumed 'c' /data/wwwroot/v3/snadmin/Home/Common/function.php 第 805 行.
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant a - assumed 'a' /data/wwwroot/v3/snadmin/Home/Common/function.php 第 807 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '15890693750'  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-10-24T15:05:32+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/tgbz_list_sd_cookie.html?id=,3295,&money=1000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-10-24T15:05:33+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/jsbz_list_sd_cl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 3295 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 3295 AND `zt` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `ot_tgbz` SET `zt`='1' WHERE `id` = 3295 AND `zt` = 0 [ RunTime:0.0008s ]
+SQL: UPDATE `ot_jsbz` SET `zt`='1' WHERE `id` = 2315 AND `zt` = 0 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0014s ]
+SQL: UPDATE `ot_user_jj` SET `zt`='3' WHERE `tgbz_id` = 3295 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ot_ppdd` (`p_id`,`g_id`,`jb`,`p_user`,`g_user`,`date`,`date1`,`zt`,`pic`,`zffs1`,`zffs2`,`zffs3`) VALUES ('3295','2315','1000','15890693751','15890693750','2017-10-24 15:05:32','2017-10-24 15:05:32','0','0','1','1','1') [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user_jj` SET `r_id`='1529' WHERE `tgbz_id` = 3295 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15890693750' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15890693751' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_id` = '2315'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: chaifen /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 1770 行.
+NOTIC: [8] Undefined variable: ppddxx2 /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 1773 行.
+SQL: INSERT INTO `ot_jsbz` (`zffs1`,`zffs2`,`zffs3`,`user`,`jb`,`date1`,`user_nc`,`user_tjr`,`date`,`zt`,`qr_zt`) VALUES ('1','1','1','15890693750','1000','2017-10-24 15:02:52','15890693750','18237508255','2017-10-24 15:02:52','1','0') [ RunTime:0.0003s ]
+SQL: UPDATE `ot_ppdd` SET `g_id`='2316' WHERE `id` = 1529 [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_jsbz` WHERE `id` = 2315 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: usercf /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 1793 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-10-24T15:05:34+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/jsbz_list_sd/id/2315/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A non well formed numeric value encountered /data/wwwroot/v3/snadmin/Home/Common/function.php 第 482 行.
+NOTIC: [8] A non well formed numeric value encountered /data/wwwroot/v3/snadmin/Home/Common/function.php 第 482 行.
+SQL: SELECT * FROM `ot_jsbz` WHERE `id` = 2315 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE (  `zffs1` = '5' OR `zffs2` = '5' OR `zffs3` = '5' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE (  `zffs1` = '5' OR `zffs2` = '5' OR `zffs3` = '5' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /data/wwwroot/v3/snadmin/Runtime/Cache/Home/daae5cc3834ad762d5c0129667e690bc.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /data/wwwroot/v3/snadmin/Runtime/Cache/Home/daae5cc3834ad762d5c0129667e690bc.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-10-24T15:09:14+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 2112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 791 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 799 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 807 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 815 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 823 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 831 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 860 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-10-24T15:10:01+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ppdd_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 ORDER BY date  LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-10-24T15:10:02+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ppdd_list/cz/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` = 2 ORDER BY date  LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-10-24T15:10:04+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts1_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-10-24T15:10:07+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts3_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-10-24T15:10:10+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/tgbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0007s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-10-24T15:10:11+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts3_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-10-24T15:10:12+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts1_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-10-24T15:10:13+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts3_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-10-24T15:10:14+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/tgbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0025s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-10-24T15:10:15+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/jsbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0023s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-10-24T15:10:16+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/tgbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0013s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-10-24T15:10:16+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts3_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-10-24T15:10:17+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts1_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-10-24T15:10:17+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ppdd_list/cz/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` = 2 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-10-24T15:10:18+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts1_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 1 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-10-24T15:10:19+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/ts3_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `zt` <> 2 AND `ts_zt` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-10-24T15:10:19+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/tgbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0012s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-10-24T15:10:20+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/jsbz_list_cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-10-24T15:10:20+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `ot_pdb` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pdb` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_pdb` LIMIT 0,15   [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/v3/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 23 行.
+NOTIC: [8] Undefined variable: list /data/wwwroot/v3/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-10-24T15:10:21+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/onekey_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_match` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: page1 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/7aa45397dd2940e288769e494ebddc93.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-10-24T15:10:22+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 2112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 730 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 752 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 791 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 799 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 807 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 815 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 823 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 831 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/v3/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 860 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-10-24T15:10:33+08:00 ] 127.0.0.1 /admdgjmin.php/Home/active/turn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ot_turn` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_turn` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/v3/snadmin/Runtime/Cache/Home/75abeeffb8db199a14107d73d5e04f10.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-10-24T15:14:16+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/v3/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+

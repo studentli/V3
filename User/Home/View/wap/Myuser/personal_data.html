@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="/css/mui.min.css" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" />
+		 
+		<title>V3财富</title>
+		<style>
+			.top_list{display:none;background:#4096ee;min-height:200px;width:150px;z-index:99;border-radius:0;position:fixed;top:45px;right:1px} 
+			.menu_active{display:block;}
+			.mui-table-view-cell{text-align: center;color:#fff;}
+		</style>
+	</head>
+	<body style="background: #fff;">
+		<header class="mui-bar mui-bar-nav" style="background: #4096ee;">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color:#fff;"></a>
+			<h1 class="mui-title" style="color:#fff;">个人资料</h1>
+			<a id="menu" class="mui-action-menu mui-icon mui-icon-bars mui-pull-right menu" style="color:#fff;font-weight: bold;"></a>
+		</header>
+		
+		<!--右上角弹出菜单-->
+		<include file="Public/menu" />
+ 	     
+ 	    <div class="content_con">
+ 	    	   	<form class="reg_list" action="{:U("Myuser/personal_data")}" method="post">
+				 
+				<div class="reg_li">
+					<label>会员用户名：</label>
+					<input type="text"  placeholder="请输入会员用户名" name="UE_theme" value="{$user['UE_theme']}" required>
+				</div>
+				<!--<div class="reg_li">
+					<label>手机号：</label>
+					<input type="text" value="请输入手机号" placeholder="请输入手机号" name="phone" id="phone"  required>
+					 
+					
+				</div>
+				-->
+				<div class="reg_li">
+					<label>验证码：</label>
+					<input name="smsnum" type="text" value="" placeholder="请输入验证码" maxlength="4" required style="width:30%;float: left;">
+					<input type="hidden" id="user" value="{$userinfo['ue_phone']}">
+					<input type="hidden" name="UE_ID" value="{$userinfo['ue_id']}">
+					<button  id="phone-check" style="margin-top: 5px;float:right;background:#4096ee;border:none;color:#fff;font-size:14px;border-radius:25px;width:30%;
+		line-height:30px;height:30px;" type="button" >获取验证码</button>
+				</div>
+				<div class="reg_li">
+					<label>二级密码：</label>
+					<input type="password" value="" placeholder="请输入二级密码" name="UE_secpwd" required>
+				</div>
+				<div class="reg_li">
+					<label>开户行：</label>
+					<input type="text" value="{$user['yhmc']}" placeholder="请输入开户行" name="yhmc">
+				</div>
+				<div class="reg_li">
+					<label>银行卡号：</label>
+					<input type="text" value="{$user['yhzh']}" placeholder="请输入银行卡号" name="yhzh">
+				</div>
+				<div class="reg_li">
+					<label>支付宝号：</label>
+					<input type="text" value="{$user['zfb']}" placeholder="请输入支付宝号" name="zfb">
+				</div>
+				<div class="reg_li">
+					<label>省份地址：</label>
+					<input type="text" value="{$user['address']}" placeholder="请输入省份地址" name="address">
+				</div> 
+				<div class="reg_li">
+					<label>微信号：</label>
+					<input type="text" value="{$user['weixin']}"  placeholder="微信号" name="weixin" id="weixin">
+				</div>
+				<div class="reg_li">
+					<label>真实姓名：</label>
+					<input type="text" value="{$user['UE_truename']}" placeholder="真实姓名" name="UE_truename" required>
+				</div>
+				<div class="reg_li">
+					<label>性别：</label>
+					<div style="width:63%;float: left;">
+						<div style="width:100px;float: left;line-height: 40px;">
+							<input type="radio" name="sex" value="1" <if condition="$user['sex'] eq 1">checked</if> style="width:15px;height: 15px;float: left;margin-top: 12px;">男</div>
+ 						<div style="width:100px;float: left;line-height: 40px;">
+ 							<input type="radio" name="sex" value="0" <if condition="$user['sex'] eq 0">checked</if> style="width:15px;height: 15px;float: left;margin-top: 12px;">女</div>
+					</div>
+				</div>
+				 
+				
+				
+
+			 <div class="submit_con">
+
+				<input type="submit" class="submit" value="提交">
+
+			</div> 
+			<p style="width:100%;font-size:14px;text-align: center;line-height:30px;color:#ea3241;">
+				注：资料只能一次填写机会，请认真仔细填写！
+			</p>
+			</form>
+ 	    </div>
+		 
+		<include file="Public/footer" />
+	<script src="/js/mui.js"></script>
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script>
+			$(".menu").click(function(){
+				 
+				$(".top_list").toggleClass("menu_active");
+				 
+			});
+			 
+		</script>
+			 <script>
+			$("#phone-check").click(function(){
+				var ob = $(this);
+				ob.attr("disabled",true);
+				var phone = $('#user').val();
+				var reg = /^1[3|4|5|8|7][0-9]\d{8}$/;
+				if(phone == "" || !reg.test(phone)){
+					alert("请正确填写手机号码");
+					ob.removeAttr("disabled");
+					return;
+				}
+				$.post("/Home/login/check_phone",{phone:phone},function(data){
+					if(data>0){
+						alert("发送失败");
+						ob.removeAttr("disabled");
+						return false;
+					}else{
+						alert("发送成功");
+						var i=120;
+						var intval = setInterval(function(){
+							ob.html(i);
+							i--;
+							if(i<0){
+								ob.removeAttr("disabled");
+								ob.html("重新获取");
+								clearInterval(intval);
+							}
+						},1000);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

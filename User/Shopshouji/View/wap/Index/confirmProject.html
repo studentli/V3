@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$usertitle}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+ 
+<link href="/css1/ind.css" rel="stylesheet" type="text/css">
+<link href="/css1/ind-style.css" rel="stylesheet" type="text/css">
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="/cssmmm/rem.js"></script>
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+<script type="text/javascript">
+  function addOrderform(){
+    // truename = $("#truename").val();
+    address = $("#address").val();
+    location.href = '__CONTROLLER__/addOrderform/id/{:I('get.id')}/count/{:I('get.count')}/address/'+address;
+  }
+</script>
+</head>
+<style>
+body,dd,dt,dl,p,h1,h2,ul{margin:0;}
+body,html{margin:0px; padding:0px; width: 100%;}
+li,ul{list-style:none;padding:0;}
+dd,dt{padding:0;}
+.clearfix{clear:both;}
+span{display:block;}
+*{font-family:"微软雅黑"}
+a{ text-decoration:none;color:#333;}
+img,span{display:block;}
+
+.bannerBox{background-color:#f5f5f9;margin-left:auto;margin-right:auto;position:relative; margin-top:10px;}
+.image{width:300px;height:300px;margin:0 auto;overflow:hidden; border:1px solid #888;}
+.image img{ width: 100%;}
+.towNav{width:100%; height:auto;float:left; background-color: #f5f5f9;}
+.towNav h1{font-size:28px;line-height:68px;}
+.towNav .text{width:36px; border-radius:6px;margin-left:6px;height:22px;}
+.towNav .bu{height:9px;weidth:9px; border-radius:4px;margin-left:6px;}
+.towNav dl{/* background-color:rgba(255,255,255,0.5); */}
+.towNav p{ font-family:"宋体";line-height:30px;font-size:14px;}
+.topp{padding-top:16px;}
+.fenjie{width:300px;overflow:hidden;padding-top:6px;padding-bottom:36px;}
+.towNav dt{margin-top:99px;}
+.towNav dt span{margin-top:12px;}
+.towNav dt .butt{margin-top:0;}
+.towNav dd{margin-left:26px;margin-right:auto;margin-top:99px;}
+.towNav dd span{padding:16px;background-color:#999;margin-left:36px;padding-left:66px;padding-right:66px;}
+.hBox{margin-top:0px;margin-bottom:16px; height: 30px; line-height: 30px;}
+.hBox h1{font-size:18px; line-height: 30px; height: 30px;}
+.content p{margin-left:19px;margin:12px;}
+.towNav h2{font-size:18px;font-weight:normal;}
+.duo{float:right;border:1px solid #F00;padding:6px;font-size:16px;line-height:16px; border-radius:6px;margin:9px;}
+.towNav span{float:left;}
+.tuijian{width:160px;float:right;border-left:#CCC 2px solid;padding-left:16px;position:absolute;top:0;right:0;}
+.tuijian p{ text-align:center;}
+.tuijian img{width:160px;height:130px;}
+.tuijian h2{border-bottom:1px solid rgba(255,0,0,0.3);font-size:12px; font-weight:normal;background-color:#CCC;}
+.content h3{font-size:16px;}
+.bannerBox p{padding-top:9px;padding-bottom:6px;}
+
+.button{border:1px solid #999;width:120px;margin-left:auto;margin-right:auto;margin-top:16px;margin-bottom:16px;}
+.button a{font-size:14px;padding-left:10px;padding-right:6px;float:left;line-height:18px;border:1px solid #666;}
+.button a:hover{background-color:#666;}
+.contentBox
+  {width:96%;margin:0 auto;}
+.content{border:1px solid #CCC; border-radius:4px;background:#FFE; width: 300px;}
+
+
+ .textBox_Box{margin-left: -18px !important;}
+.top_box{ width: 100%; margin:0px; padding:0px; height: 50px; position: fixed; left:0px; top:0px; background-color: #fff;z-index:55;}
+.top_box a{ width: 50px; line-height:50px; height: 50px; color:#333;font-size: 16px;}
+</style>
+
+
+<body style="background:#f5f5f9;">
+ <header class="head" style="background-color:#4F98CD; line-height: 40px;height:40px;">
+      <a class="head_mid" style="color:#fff;width:25%;float: left;font-size: 14px;line-height: 40px;text-align: center;" href="/shop/index/index">商城</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingCart">购物车</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingList">订单列表</a>
+        <a class="head_right" href="/" style="color:#fff;width:25%;text-align: center;float: right;font-size: 14px;line-height: 40px;">首页</a>
+ </header>
+<div class="main" style="margin:0px; width:100%; background-color:#f5f5f9;padding-bottom: 60px;">
+
+<div class="bannerBox" style="">    
+     <div class="towNav" style="width:100%;">
+		<div class="image">
+    <img src="{$arr.imagepath}">
+  </div>
+  <div style="overflow:hidden; width:96%; margin-left: 2%;margin-top: 20px;">
+          <h1 style=" width:100%; line-height: 30px; height:30px; color:#333; font-size: 20px;">{$arr.name}</h1>
+        
+          <!-- <dl> -->
+              <p class="topp">原价：<del style="color:#DDD;">￥<empty name="arr.old_price">{$arr.price}<else/>{$arr.old_price}</empty></del></p>
+                <p>现价：<b style="color:red;">￥{$arr.price}</b></p>
+            
+         
+        <!--   </dl> -->
+         <!--  <dt> -->
+    
+              <span>数量</span>
+              <form>
+                <span style="padding:0px 15px;">{$map.count}</span>
+                <div class="clearfix"></div>
+              </form>
+          <!-- b</dt> -->
+				<div class="buy_class"  style="margin-top:15px;">
+          <?php $settings = include( APP_PATH . 'Home/Conf/settings.php' ); ?>
+					<dl>支付排豆币 {$sumPrice*($settings['money_spb_bili']/100)}</dl><br>
+					<dl>
+            <!-- <a id="idHomeExpert4" href="tencent://message/?Menu=yes&uin=156822811&Service=58&SigT=" title="156822811" >请咨询QQ</a> -->
+          </dl>
+				</div>
+         <form >
+               收货人：<?php $user = M('user')->where(array("UE_name" => $_SESSION['uname']))->find();
+                        echo $user['ue_truename'];?><br><br>
+               收货地址：<input name="address" type="text" id="address" style="border:1px solid #ddd;"><br><br>
+               收货人电话：<?php $user = M('user')->where(array("UE_name" => $_SESSION['uname']))->find();
+                        echo $user['ue_phone'];
+               ?>
+               
+             </form><br>
+              <span class="duo" style="border:0px;color:#fff;text-indent:0px;margin-left:100px;display:inline-block;text-align:center;background-color:#388BFF;cursor:pointer; float: right;" onclick="addOrderform()">确认购买</span>
+              <span>注意：排豆币将直接扣除</span>
+              <div class="clearfix"></div>
+             
+               <div class="fenjie">
+                  <img src="/images/xiabianxian.gif">
+                </div>
+				
+				</div>
+            
+      </div>
+
+    <div class="clearfix"></div>
+</div>
+<div class="contentBox">
+                <div class="hBox">
+                    <h1>产品详情</h1>
+            
+                  
+                </div>
+                
+    <div class="content" style=" width:96%; min-width: 0px; margin-left: 2%; margin-bottom: 20px;">
+       
+          <h3>{$arr.title}</h3>
+          <p>{$arr.content}</p>
+        
+      </div>
+
+  </div>
+</div>
+</div>
+
+<include file="User/Home/View/wap/bottom.html" />
+
+
+</body>
+</html>

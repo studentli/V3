@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="/css/mui.min.css" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" />	 
+		<title>V3财富</title>
+		<style>
+.top_list{display:none;background:#4096ee;min-height:200px;width:150px;z-index:99;border-radius:0;position:fixed;top:45px;right:1px} 
+.menu_active{display:block;}
+.mui-table-view-cell{text-align: center;color:#fff;}
+.contect_list{width:100%;height: auto;overflow: hidden;margin-top: 20px;}
+.contect_list .form_group{width:100%;height: auto;overflow: hidden;margin-bottom: 10px;}
+.contect_list .form_group label{width:100%;text-align: right;font-size: 14px;line-height:40px;height:40px;color:#333; }
+.contect_list .form_group select{width:50%;float: right;border:1px solid #ddd;appearance:normal;background:#eee;height:34px;line-height: 34px;padding:0px;margin:0px;}
+.contect_list .form_group input{width:50%;float: right;border:1px solid #ddd;line-height: 34px;height:34px;padding:0px;margin:0px;}
+
+			</style>
+	</head>
+	<body style="background: #fff;">
+		<header class="mui-bar mui-bar-nav" style="background: #4096ee;">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color:#fff;"></a>
+			<h1 class="mui-title" style="color:#fff;">留言回复</h1>
+			<a id="menu" class="mui-action-menu mui-icon mui-icon-bars mui-pull-right menu" style="color:#fff;font-weight: bold;"></a>
+		</header>
+		<!--右上角弹出菜单-->
+		<include file="Public/menu" /> 
+ 	     
+ 	    <div class="content_con" style="padding:20px;padding-top: 44px;">
+			 <div class="contect">
+			 	<h2 class="font-light m-b-xs" style="font-size:16px;line-height: 30px;font-weight: bold;"> 公司留言</h2>
+                <small>
+
+                    在这里，你可以提交你所面对的疑难，您的请求我们将会尽快的处理。我们的服务时间是在周一至周五，北京/香港时间 9:00 到 17:00。
+                </small>
+			 </div>
+			 <div class="contect_list">
+			 	<h3 style="font-size:16px;line-height: 30px;font-weight: bold;">提交建议</h3>
+			 	<form action="{:U('Home/Myuser/lxwmcl')}" method='post'>
+			 		<div class="form_group">
+			 			<label>问题</label>
+			 			<div class="contect_li">
+			 			  <select class="form-control m-b" name="otlylx" id="otlylx" style="width:100%;">
+                                                <option value="系统错误">系统错误</option>
+                                                <option value="参与者拒绝汇款">参与者拒绝汇款</option>
+                                               <!--  <option value="经理操作不合理">经理操作不合理</option> -->
+                                                <option value="接款者不愿意确认收款">接款者不愿意确认收款</option>
+                                                <option value="汇款时，对方银行资料与系统提供的有差别">汇款时，对方银行资料与系统提供的有差别</option>
+                                                <option value="参与者账号被封锁了">参与者账号被封锁了</option>
+                                                <option value="未确认收款">未确认收款</option>
+                                                <option value="错误的操作">错误的操作</option>
+                                               <!--  <option value="无法接受手机短信">无法接受手机短信</option> -->
+                                                <option value="无法提交提供帮助申请">无法提交提供帮助申请</option>
+                                                <option value="无法提交接收帮助申请">无法提交接收帮助申请</option>
+                                                <option value="系统显示的金额有误">系统显示的金额有误</option>
+                                               <!--  <option value="更换邮箱">更换邮箱</option>
+                                                <option value="更换手机号码">更换手机号码</option> -->
+                                                <option value="举报诈骗行为">举报诈骗行为</option>
+                                                <option value="无法更新汇款状态">无法更新汇款状态</option>
+                                                <option value="无法更新接款状态">无法更新接款状态</option>
+                                                <option value="未获得款项">未获得款项</option>
+                                                <option value="未获得款项">其他类型</option>
+                                                <!-- <option value="我需要更换我的经理">我需要更换我的经理</option> -->
+                                            </select>
+			 			</div>
+			 		</div>
+			 		<div class="form_group">
+			 			<label>标题</label>
+			 			<div class="contect_li">
+			 				 <input type="text" required name="lybt" id="lybt" class="form-control" style="width:100%;">
+
+			 			</div>
+			 		</div>
+			 		<div class="form_group">
+			 			<label>内容</label>
+			 			<div class="contect_li">
+			 				 <textarea rows="4" required name="lynr" id="lynr" class="form-control" style="width: 100%;"></textarea>
+
+			 			</div>
+			 		</div>
+			 		<div class="form-group" style="text-align: center;">
+                       <input name=" " type="submit" id="btn" value="提交" style="width: 100px;text-align: center;">
+                       <a href="lxwm.html" style="display: inline-block;width:100px;color: #333;
+    border: 1px solid #ddd;
+    background-color: #ddd;line-height: 1.42;padding:6px 12px;border-radius: 3px;">留言记录</a>
+                     </div>
+			 	</form>
+			 </div>
+		</div>
+		 
+		<include file="Public/footer" />
+		<script src="/js/mui.js"></script>
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script>
+			$(".menu").click(function(){
+				 
+				$(".top_list").toggleClass("menu_active");
+				 
+			});
+			 
+		</script>
+	</body>
+</html>

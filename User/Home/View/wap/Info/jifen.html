@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+
+    <script src="/cssmmm/jquery.js"></script>
+
+
+    <!-- Page title -->
+    <title>V3财富</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Vendor styles -->
+    <link href="/css/ind.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+
+<body style="position: relative;min-width: 320px;max-width: 650px;margin: auto;">
+    <div class="top">
+        <div class="top_nav">
+            <small class="text-muted">V3财富<span>·</span>惠民商城</small>
+            <div class="right_button">
+                <h1>
+                    <img src="/cssmmm/clo.png" alt="">
+                    <input name="" type="button" value="">
+                </h1>
+                <h6>
+                    <img src="/cssmmm/list.png" alt="">
+                    <input name="" type="button" value="">
+                </h6>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div class="two_nav" style="width:30%;margin-left:70%;display: none;border:none;">
+            <div class="two_nav1">
+                <div class="tuijian">
+                   <a href="/Home/Index/home">
+                        <h1>我的首页</h1>
+                    </a>
+                    <a href="/Home/Info/jifen">
+                        <h1>积分互转</h1>
+                    </a>
+                    <a href="/Home/Reghub/censor">
+                        <h1>待审核列表</h1>
+                    </a>
+                    <a href="/Home/Myuser/xzzh">
+                        <h1>我的用户群</h1>
+                    </a>
+                    <!-- <a href="/Home/Turn/turn">
+                        <h1>抽奖</h1>
+                    </a> -->
+                    <a href="/Home/Index/news">
+                        <h1>新闻中心</h1>
+                    </a>
+                    <a href="/Home/Info/grsz">
+                        <h1>个人资料</h1>
+                    </a>
+                    <a href="/Home/Info/xgmm">
+                        <h1>修改密码</h1>
+                    </a>
+                    <a href="/Home/Info/cwmx">
+                        <h1>财务管理</h1>
+                    </a>
+                    <a href="/Home/Myuser/lxwm">
+                        <h1>联系我们</h1>
+                    </a>
+                    <a href="/Home/Login/logout">
+                        <h1>退出</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:60px; background: #fff;">
+        <div class="normalheader" style="padding:40px 20px 0 20px;">
+            <div class="hpanel">
+                <div class="panel-body" style="padding: 0;">
+                    <h2 class="font-light m-b-xs">积分互转 </h2>
+                    <form name="form1" method="post" action="/Home/Info/jfzzcl">
+                    	<div class="home_pin">
+                            <p>转让类型:</p>
+                            <input name="type" type="radio" id="type"  value="1" checked>静态积分：{$info['ue_money']}
+                            <input name="type" type="radio" id="type"  value="2" style="margin-left: 30px;">商城积分：{$info['shop_money']}
+                        </div>
+                        <div class="home_pin">
+                            <p>转让数量:</p>
+                            <input name="sh" type="number" id="sh" class="home_pin_it">
+                        </div>
+                        <div class="home_pin">
+                            <p>对方用户名:</p>
+                            <input name="user" type="text" id="user" class="home_pin_it">
+                        </div>
+                        <div class="home_pin">
+                            <p>二级密码:</p>
+                            <input name="ejmm" type="password" id="ejmm" class="home_pin_it">
+                        </div>
+                        <div class="home_pin" style="text-align: center;">
+                            <input type="submit" name="Submit" value="确认转让" class="home_pin_sb">
+                        </div>
+                        <br>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+            <div class="row" style="margin:0;">
+                <h4>积分转账记录</h4>
+                <div class="col-lg-12" style="padding:0;">
+                    <div class="col-md-12" style="padding:0;">
+                        <div class="hpanel">
+                            <div class="panel-body" style="padding:0;">
+                                <div class="table-responsive">
+                                    <div id="example_wrapper" class="dataTables_wrapper no-footer">
+                                        <div class="dataTables_length" id="example_length">
+                                            <label></label>
+                                        </div>
+                                        <table id="example" cellpadding="1" cellspacing="1" class="table table-bordered table-striped cus_datatable dataTable no-footer"
+                                            width="100%" role="grid" aria-describedby="example_info" style="width: 100%;">
+                                            <thead>
+                                                <tr role="row" style="background: #AC1818;color: #fff;">
+                                                    <th class="sorting_desc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-sort="descending" aria-label="编号: activate to sort column ascending"
+                                                        >编号</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="用户: activate to sort column ascending"
+                                                        >转出账户</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="PIN码: activate to sort column ascending"
+                                                        >转入账户</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="转账前: activate to sort column ascending"
+                                                        >转账前</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="转账数量: activate to sort column ascending"
+                                                        >转账数量</th>
+                                                    <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="转账后">转账后</th>
+                                                    <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="时间">时间</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <foreach name='list2' item='v'>
+                                                    <tr role="row" class="odd">
+                                                        <td>{$v.ug_id}</td>
+                                                        <td>{$v.ug_account}</td>
+                                                        <td>{$v.ug_othraccount}</td>
+                                                        <td>
+                                                        <if condition="($v.ug_note eq '积分转出') && ($v.ug_account eq $_SESSION['uname'])">{$v.ug_allget}
+                                                        <elseif condition="($v.ug_note eq '积分转入') && ($v.ug_othraccount eq $_SESSION['uname'])" />{$v.ug_allget}
+
+                                                        </if>
+
+                                                        </td>
+                                                        <td>{$v.ug_money}</td>
+                                                        <td>
+                                                        <if condition="($v.ug_note eq '积分转出') && ($v.ug_account eq $_SESSION['uname'])">{$v.ug_balance}
+                                                        <elseif condition="($v.ug_note eq '积分转入') && ($v.ug_othraccount eq $_SESSION['uname'])" />{$v.ug_balance}
+
+                                                        </if>
+                                                        </td>
+                                                        <td>{$v.ug_gettime}</td>
+                                                    </tr>
+                                                </foreach>
+
+                                            </tbody>
+                                        </table>
+                                        <div class="dataTables_paginate paging_simple_numbers" id="example_paginate">{$page2}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script>
+        $(".two_nav").hide();
+        $(".right_button h1").hide();
+        $(".right_button h6").click(
+            function () {
+                $(".two_nav").show()
+            }
+        )
+        $(".right_button h6").click(
+            function () {
+                $(".right_button h1").show()
+            }
+        )
+        $(".right_button h6").click(
+            function () {
+                $(".right_button h6").hide()
+            }
+        )
+
+
+        $(".right_button h1").click(
+            function () {
+                $(".two_nav").hide()
+            }
+        )
+        $(".right_button h1").click(
+            function () {
+                $(".right_button h6").show()
+            }
+        )
+        $(".right_button h1").click(
+            function () {
+                $(".right_button h1").hide()
+            }
+        )
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <!-- Page title -->
+    <title>V3财富</title>
+
+    <link href="/css/ind.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+
+</head>
+
+<body style="position: relative;min-width: 320px;max-width: 650px;margin: auto;">
+    <div class="top">
+        <div class="top_nav">
+            <small class="text-muted">V3财富<span>·</span>惠民商城</small>
+            <div class="right_button">
+                <h1>
+                    <img src="/cssmmm/clo.png" alt="">
+                    <input name="" type="button" value="">
+                </h1>
+                <h6>
+                    <img src="/cssmmm/list.png" alt="">
+                    <input name="" type="button" value="">
+                </h6>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div class="two_nav" style="width:30%;margin-left:70%;display: none;border:none;">
+            <div class="two_nav1">
+                <div class="tuijian">
+                   <a href="/Home/Index/home">
+                        <h1>我的首页</h1>
+                    </a>
+                    <a href="/Home/Info/jifen">
+                        <h1>积分互转</h1>
+                    </a>
+                    <a href="/Home/Reghub/censor">
+                        <h1>待审核列表</h1>
+                    </a>
+                    <a href="/Home/Myuser/xzzh">
+                        <h1>我的用户群</h1>
+                    </a>
+                    <!-- <a href="/Home/Turn/turn">
+                        <h1>抽奖</h1>
+                    </a> -->
+                    <a href="/Home/Index/news">
+                        <h1>新闻中心</h1>
+                    </a>
+                    <a href="/Home/Info/grsz">
+                        <h1>个人资料</h1>
+                    </a>
+                    <a href="/Home/Info/xgmm">
+                        <h1>修改密码</h1>
+                    </a>
+                    <a href="/Home/Info/cwmx">
+                        <h1>财务管理</h1>
+                    </a>
+                    <a href="/Home/Myuser/lxwm">
+                        <h1>联系我们</h1>
+                    </a>
+                    <a href="/Home/Login/logout">
+                        <h1>退出</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div style="margin-top:60px; background: #fff;">
+        <div class="normalheader" style="padding:40px 20px 0 20px;">
+            <div class="hpanel">
+                <div class="panel-body" style="padding: 0;">
+                    <h2 class="font-light m-b-xs">弟子注册</h2>
+                </div>
+                <div style="padding: 20px 0;">
+                    <p><b>我的推荐注册链接：</b></p>
+                    <input type="text" value="<?php echo 'http://' . I( 'server.HTTP_HOST' ) . U( 'Login/register' ) . '?phone=' . $userData['ue_account']; ?>"
+                        id="alipay" class="form-control-not-full" readonly style="width:100%;border: none;font-size: 1.2em;">
+                    <div style="width:100%;text-align:center;">
+                        <img style="width:200px;" src="__ROOT__/qrcode/reg/{$qrcode}">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" style="padding:20px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-12" style="padding:0;">
+                        <div class="hpanel">
+                            <div class="panel-body" style="padding:0;">
+                                <form action="{:U('regadd')}" id="loginForm" method="post">
+                                    <div class="row">
+                                        <div class="form-group col-lg-6" style="position: relative;">
+                                            <label>手机号码</label><span style="margin-left:15px;color:red;"></span>
+                                            <input type="" id="account" class="form-control" name="phone" maxlength="13" required="">
+                                            <input type="hidden" value="{$token}" id="token">
+                                            <button class="form-control" id="phone-check" style="position: absolute;right: 0;top: 18px;display: inline;background: none;height: 40px; float: right; width: 40%;border: none;color: #AC1818;margin-top: 2px;" type="button">获取验证码</button>
+                                        </div>
+                                        <script>
+                                            $("#phone-check").click(function () {
+                                                var ob = $(this);
+                                                ob.attr("disabled", true);
+                                                var phone = $('#account').val();
+                                                var token = $('#token').val();
+
+                                                var reg = /^1[3|4|5|8][0-9]\d{8}$/;
+                                                if (phone == "" || !reg.test(phone)) {
+                                                    alert("请正确填写手机号码");
+                                                    ob.removeAttr("disabled");
+                                                    return;
+                                                }
+                                                $.post("__MODULE__/login/check_phone", { phone: phone ,token:token}, function (data) {
+                                                    if (data > 0) {
+                                                        alert("发送失败");
+                                                    } else {
+                                                        alert("发送成功");
+                                                    }
+                                                });
+                                                var i = 60;
+                                                var intval = setInterval(function () {
+                                                    ob.html(i);
+                                                    i--;
+                                                    if (i < 0) {
+                                                        ob.removeAttr("disabled");
+                                                        ob.html("重新获取");
+                                                        clearInterval(intval);
+                                                    }
+                                                }, 1000);
+                                            });
+                                        </script>
+ 
+                                        <div class="form-group col-lg-6">
+                                            <label>验证码：</label><span style="margin-left:15px;color:red;"></span>
+                                            <input type="" id="" class="form-control" name="yzm" maxlength="13" required="">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>登入密码</label>
+                                            <input type="password" id="password" class="form-control" name="password" min="6" required>
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>确认登入密码</label>
+                                            <input type="password" id="password2" class="form-control" name="password2" required="">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>二级密码</label>
+                                            <input name="ejmm" type="password" class="form-control" id="secpassword" min="6" required>
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>确认二级密码</label>
+                                            <input name="ejmm2" type="password" class="form-control" id="secpassword2" required="">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>银行账号</label>
+                                            <input type="" id="yhzh" class="form-control" name="yhzh" min="6" required>
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>开户行地址</label>
+                                            <input id="" class="form-control" name="yhmc" required="">
+                                        </div>
+                                        
+                                        <div class="form-group col-lg-6">
+                                            <label>支付宝账号</label>
+                                            <input type="" id="zfb" class="form-control" name="zfb" min="6" >
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>微信账号</label>
+                                            <input type="" id="weixin" class="form-control" name="weixin" min="6" >
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>介绍人账号：</label>
+                                           
+                                                <input type="tel" value="{$userData['ue_account']}"  class="form-control" name="pemail" required="" readonly>
+                                                <!-- <span class="input-group-btn">
+                                                    <input name="jhwjjc"  id="jhwjjc2" type="button" class="btn btn-primary pemailcheck" value="检查"> </span> -->
+                                            
+                                            <font id="alert_pemail_repeat"></font>
+                                        </div>
+                                        <div class="checkbox col-lg-12">
+                                            <div class="icheckbox_square-green checked" style="position: relative;"></div>
+                                            <input name="ty" type="checkbox" id="ty" value="ye" checked> 我已完全了解所有风险。
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-success">注册</button>
+                                        <!--<button class="btn btn-default">取消</button>-->
+                                        <input name="ip" type="text" id="ip" style="display:none;">
+                                        <input name="重置" type="reset" class="btn btn-default" value="取消">
+                                    </div>
+                                </form>
+
+
+                                <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+                                <script>
+                                    document.getElementById('ip').value = returnCitySN["cip"];
+                                </script>
+
+                                <script>
+                                    $(function () {
+
+                                        $('#jhwjjc').click(function () {
+
+                                            var $dfzh = $('#pemail').val();
+                                            var $action = '/Home/Myuser/xm';
+                                            $.post($action, { dfzh: $dfzh }, function (data) {
+                                                if (data.sf == 0) {
+                                                    document.getElementById('alert_pemail').innerHTML = data.nr;
+                                                } else {
+                                                    document.getElementById('alert_pemail').innerHTML = data;
+                                                }
+                                            });
+
+
+                                        });
+
+                                        $('#jhwjjc2').click(function () {
+
+                                            var $dfzh = $('#pemail').val();
+                                            var $action = '/Home/Myuser/xm';
+                                            $.post($action, { dfzh: $dfzh }, function (data) {
+                                                //alert("asdf");
+                                                if (data.sf == 0) {
+                                                    document.getElementById('alert_pemail_repeat').innerHTML = data.nr;
+                                                } else {
+                                                    document.getElementById('alert_pemail_repeat').innerHTML = data;
+                                                }
+                                            });
+
+
+                                        });
+
+                                    })
+
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--table-->
+            <!-- <div class="row">
+                <div class="col-lg-12" style="padding:0;">
+                    <div class="col-md-12">
+                        <div class="hpanel">
+                            <div class="panel-heading" style="padding:0;">
+                                激活码使用记录</div>
+                            <div class="panel-body" style="padding:0;">
+                                <div class="table-responsive">
+                                    <div id="example_wrapper" class="dataTables_wrapper no-footer">
+                                        <div id="example_filter" class="dataTables_filter"><label></label>
+                                        </div>
+                                        <table id="example" cellpadding="1" cellspacing="1" class="table table-bordered table-striped cus_datatable dataTable no-footer"
+                                            role="grid" aria-describedby="example_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting_desc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-sort="descending" aria-label="编号: activate to sort column ascending">编号</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="用户: activate to sort column ascending">用户</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="PIN码: activate to sort column ascending">激活码</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="新用户: activate to sort column ascending">新用户</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="注册时间: activate to sort column ascending">注册时间</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                <foreach name='list' item='v'>
+
+                                                    <tr role="row" class="odd">
+                                                        <td class="sorting_1">
+                                                            <p style="width:90px;margin:0;">{$v.ue_id}</p>
+                                                        </td>
+                                                        <td>
+                                                            <p style="width:120px;margin:0;padding: 0 5px;word-break: break-all;">{$v.zcr}</p>
+                                                        </td>
+                                                        <td>
+                                                            <p style="width:150px;margin:0;word-break: break-all;">{$v.pin}</p>
+                                                        </td>
+                                                        <td>
+                                                            <p style="width:120px;margin:0;">{$v.ue_account}</p>
+                                                        </td>
+                                                        <td>
+                                                            <p style="width:90px;margin:0;">{$v.ue_regtime}</p>
+                                                        </td>
+                                                    </tr>
+                                                </foreach>
+
+                                            </tbody>
+                                        </table>
+                                        <div class="dataTables_info" id="example_info" role="status" aria-live="polite">{$page}</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <script>
+                                    $(".two_nav").hide();
+                                    $(".right_button h1").hide();
+                                    $(".right_button h6").click(
+                                        function () {
+                                            $(".two_nav").show()
+                                        }
+                                    )
+                                    $(".right_button h6").click(
+                                        function () {
+                                            $(".right_button h1").show()
+                                        }
+                                    )
+                                    $(".right_button h6").click(
+                                        function () {
+                                            $(".right_button h6").hide()
+                                        }
+                                    )
+
+
+                                    $(".right_button h1").click(
+                                        function () {
+                                            $(".two_nav").hide()
+                                        }
+                                    )
+                                    $(".right_button h1").click(
+                                        function () {
+                                            $(".right_button h6").show()
+                                        }
+                                    )
+                                    $(".right_button h1").click(
+                                        function () {
+                                            $(".right_button h1").hide()
+                                        }
+                                    )
+
+        </script>
+</body>
+
+</html>

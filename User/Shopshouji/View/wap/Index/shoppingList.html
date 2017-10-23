@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<style>
+body,dd,dt,dl,p,h1,h2,ul{margin:0;}
+li,ul{list-style:none;padding:0;}
+dd,dt{padding:0;}
+.clearfix{clear:both;}
+span{display:block;}
+*{font-family:"微软雅黑"}
+a{ text-decoration:none;color:#333;}
+img,span{display:block;}
+
+.bannerBox{background-color:#fff;margin-left:auto;margin-right:auto;position:relative;}
+.image{width:460px;height:400px;float:left;overflow:hidden;}
+.image img{width:460px;}
+.towNav{width:584px;height:400px;margin-left:40px;float:left;}
+.towNav h1{font-size:28px;line-height:68px;}
+.towNav .text{width:36px; border-radius:6px;margin-left:6px;height:22px;}
+.towNav .bu{height:9px;weidth:9px; border-radius:4px;margin-left:6px;}
+.towNav dl{background-color:rgba(255,255,255,0.5);}
+.towNav p{ font-family:"宋体";line-height:30px;font-size:14px;}
+.topp{padding-top:16px;}
+.fenjie{width:584px;overflow:hidden;padding-top:6px;padding-bottom:36px;}
+.towNav dt{margin-top:99px;}
+.towNav dt span{margin-top:12px;}
+.towNav dt .butt{margin-top:0;}
+.towNav dd{margin-left:26px;margin-right:auto;margin-top:99px;}
+.towNav dd span{padding:16px;background-color:#999;margin-left:36px;padding-left:66px;padding-right:66px;}
+.hBox{margin-top:0px;margin-bottom:16px;}
+.hBox h1{font-size:18px;}
+.content p{margin-left:19px;margin:12px;}
+.towNav h2{font-size:18px;font-weight:normal;}
+.duo{float:right;border:1px solid #F00;padding:6px;font-size:16px;line-height:16px; border-radius:6px;margin:9px;}
+.towNav span{float:left;}
+.tuijian{width:160px;float:right;border-left:#CCC 2px solid;padding-left:16px;position:absolute;top:0;right:0;}
+.tuijian p{ text-align:center;}
+.tuijian img{width:160px;height:130px;}
+.tuijian h2{border-bottom:1px solid rgba(255,0,0,0.3);font-size:12px; font-weight:normal;background-color:#CCC;}
+.content h3{font-size:16px;}
+.bannerBox p{padding-top:9px;padding-bottom:6px;}
+
+.button{border:1px solid #999;width:120px;margin-left:auto;margin-right:auto;margin-top:16px;margin-bottom:16px;}
+.button a{font-size:14px;padding-left:10px;padding-right:6px;float:left;line-height:18px;border:1px solid #666;}
+.button a:hover{background-color:#666;}
+.contentBox
+  {width:1300px;
+  margin-left:auto;
+  margin-right:auto;}
+.content{border:1px solid #CCC; border-radius:4px;background:#FFE;}
+
+
+</style>
+<head>
+<meta charset="utf-8">
+<title>购物车</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+ <script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+<!--<script src="jquery.js"></script>-->
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+   <link rel="stylesheet" href="/assets/styles/style.css">
+	<link rel="stylesheet" href="/assets/css/shop.css">
+</head>
+<style>
+.an{z-index:999;position:absolute;}
+.an ul li{clear:both;}
+body:before,body:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.samllBox:before,.smallBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.banner:before,.banner:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.contentBox:before,.contentBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_:before,.clear_:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_{
+		float:left;
+	}
+	.smallBox a{
+		display: inline-block;
+	}
+	.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+<body>
+ <header class="head" style="background-color:#4F98CD; line-height: 40px;height:40px;">
+      <a class="head_mid" style="color:#fff;width:25%;float: left;font-size: 14px;line-height: 40px;text-align: center;" href="/shop/index/index">商城</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingCart">购物车</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingList">订单列表</a>
+        <a class="head_right" href="/" style="color:#fff;width:25%;text-align: center;float: right;font-size: 14px;line-height: 40px;">首页</a>
+ </header>
+	<script>
+	 $(document).ready(function(){
+	  $(".nav ul li").mouseenter(function(){
+	  $(this).addClass("current");
+	  })
+	 $(".nav ul li").mouseleave(function(){
+	  $(this).removeClass("current");
+	  })
+	 })
+	</script>
+
+
+
+<!--购物车列表-->
+	 <div id="cart-container" class="block block-order" style="margin-top:50px;width:100%;box-sizing: border-box;">
+	 	<table border="" cellspacing="" cellpadding="" style="width:100%;">
+	 		<thead>
+	 			<tr>
+	 				<th style="text-align: center;">产品信息</th>
+	 				<th style="text-align: center;">总价</th>
+	 				<th style="text-align: center;">数量</th>
+	 				<th style="text-align: center;">状态</th>
+	 				<th style="text-align: center;">操作</th>
+	 			</tr>
+	 		</thead>
+	 		
+	 		<tbody class="cart_goods_area">
+	 			
+	 		<!-- 	<tr>
+	 				<td style="text-align: center;">
+	 					<a href="http://wx.wzgwsc.com/product/830b2e36ca954e80850f4f12a57265af.html" class="thumb" style="float:left;width:100px;height:100px;overflow: hidden;border-bottom:2px solid #A0A0A0;">
+                                <img src="__ROOT__/images/banner1.png" width="" style="width:100%;height:100%;">
+                            </a>
+                            <span style="line-height:100px;">iPhone7-32G版</span>
+	 				</td>
+	 				<td><p class="ellipsis" style="text-align: center;color:red;">￥<span id="price_1" style="display: inline-block;">15</span></p></td>
+	 				<td> 
+	 					
+	 				</td>
+	 				<td style="text-align: center;"><button>确认收货</button></td>
+	 				<td style="text-align: center;">
+	 					<button onclick="deleteCart('1')">删除</button>
+	 				</td>
+	 			</tr> -->
+	 		  <foreach name="list" item="v">
+	 		      <tr>
+	 				<td style="text-align: center;">
+	 					<!-- <a href="/shop/index/project?id={$v['tid']}" class="thumb" style="float:left;width:100px;height:100px;overflow: hidden;border-bottom:2px solid #A0A0A0;">
+                                <img src="__ROOT__{$aa1|cartpath=$v['tid'],###}" width="" style="width:100%;height:100%;">
+                            </a> -->
+                            <span style="line-height:100px;">{$v['project']}</span>
+	 				</td>
+	 				<td><p class="ellipsis" style="text-align: center;color:red;">￥<span id="price_1" style="display: inline-block;">{$v['sumprice']}</span></p></td>
+	 				<td style="text-align:center;"> 
+	 					{$v['count']}
+	 				</td>
+	 				
+	 				<td style="text-align: center;">	
+	 				   <if condition="$v.zt eq 0">未发货</if> 				   
+	 				    <if condition="$v.zt eq 1"><button onclick="doshop({$v['id']})">确认收货</button></if>
+	 				    <if condition="$v.zt eq 2">已收货</if> 
+	 				</td>
+	 				<td style="text-align: center;">
+	 				    <if condition="$v.zt eq 0">未发货</if> 				   
+	 				    <if condition="$v.zt eq 1">已发货</if>
+	 					<if condition="$v.zt eq 2"><button onclick="deleteCart({$v['id']})">删除</button></if>
+	 				</td>
+	 			</tr>
+	 		  </foreach>
+	 		
+	 		
+	 		
+	 	
+	 		
+	 		</tbody>
+	 	
+	 	</table>
+	 	
+	 	</div>
+	 	<include file="User/Home/View/wap/bottom.html" />
+	 	
+	 	<!--<form id="form" action="/orderConfirm.html" method="post">
+    		<input type="hidden" id="ids" name="ids" value=""/>
+		</form>-->
+</body>
+</html>
+<script type="text/javascript">
+   
+    function deleteCart(id) {
+        if(confirm("您确定要删除该吗？")){
+            $.ajax({
+                url:"/shop/index/delete_shop",
+                type:"post",
+                dataType:"json",
+                data:{id:id},
+                success:function(data){
+                    if(data.status == 1){
+                        alert("删除成功");
+                        $("#li" + id).remove();
+                        window.location.reload();
+                    }
+                    if(data.status == 0){
+                        alert("删除失败");
+                        $("#li" + id).remove();
+                        window.location.reload();
+                    }
+                }
+            });
+        }
+    }
+    function doshop(id) {
+        if(confirm("您确定要收货该吗？")){
+            $.ajax({
+                url:"/shop/index/doshop",
+                type:"post",
+                dataType:"json",
+                data:{id:id},
+                success:function(data){
+                    if(data.status == 1){
+                        alert("收货成功");
+                        $("#li" + id).remove();
+                        window.location.reload();
+                    }
+                    if(data.status == 0){
+                        alert("收货失败失败");
+                        $("#li" + id).remove();
+                        window.location.reload();
+                    }
+                }
+            });
+        }
+    }
+    </script>

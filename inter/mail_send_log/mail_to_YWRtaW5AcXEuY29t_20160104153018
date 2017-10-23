@@ -1,0 +1,17 @@
+Trying to smtp.qq.com:25
+220 smtp.qq.com Esmtp QQ Mail Server
+Connected to relay host smtp.qq.com
+> HELO localhost
+250 smtp.qq.com
+> AUTH LOGIN NTQxOTA0OTMwQHFxLmNvbQ==
+334 UGFzc3dvcmQ6
+> endwYWNkbWV5d2dxYmVjag==
+235 Authentication successful
+> MAIL FROM:<541904930@qq.com>
+250 Ok
+> RCPT TO:<admin@qq.com>
+550 Mailbox not found or access denied
+Error: Remote host returned "550 Mailbox not found or access denied"
+Error: Error occurred while sending RCPT TO command.
+Error: Cannot send email to <admin@qq.com>
+Disconnected from remote host

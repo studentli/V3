@@ -1,0 +1,2095 @@
+[ 2017-10-18T09:42:19+08:00 ] 127.0.0.1 /admdgjmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+
+[ 2017-10-18T09:42:20+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-10-18T09:42:30+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2017-10-18 09:42:30','115.60.188.139','admin','1') [ RunTime:0.0831s ]
+
+[ 2017-10-18T09:42:31+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-10-18T09:42:31+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-10-18T09:42:31+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-18T09:42:32+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-10-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-10-19 00:00') ) LIMIT 1   [ RunTime:0.0722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0011s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0014s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0007s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0154s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2835 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2836 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2837 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2838 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2839 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2840 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2841 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2842 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2843 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-10-18T09:42:33+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-10-18T09:44:22+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/0c3d8045a52e341f6f6890f67ea70989.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-10-18T09:44:25+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/pin_add_cl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 1158 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18339977511' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '3195d0e5eec7f8e997d6299e4e6177ea' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','3195d0e5eec7f8e997d6299e4e6177ea','0','2017-10-18 09:44:25') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '8c9c56d5d3781668f943700b4fd692d0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','8c9c56d5d3781668f943700b4fd692d0','0','2017-10-18 09:44:25') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'c4af520e5a6dab36e872bd30fbb79e60' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','c4af520e5a6dab36e872bd30fbb79e60','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '72a34447b2bff64b4c01e8b0c079355b' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','72a34447b2bff64b4c01e8b0c079355b','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'd794864a0b964584f383a69600faeaba' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','d794864a0b964584f383a69600faeaba','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '83d42cd5de73d5e00e891ceefe0db7b5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','83d42cd5de73d5e00e891ceefe0db7b5','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'fce49782b4690afc41ff5e6ab55e0aee' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','fce49782b4690afc41ff5e6ab55e0aee','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '46b595f0ea273a324a0e3f31ec5dc8b6' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','46b595f0ea273a324a0e3f31ec5dc8b6','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '0786efd63ab55b45e1a16e21c0991335' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','0786efd63ab55b45e1a16e21c0991335','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '22e64b2fd51aa40a39d6feb09df36cc0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18339977511','22e64b2fd51aa40a39d6feb09df36cc0','0','2017-10-18 09:44:25') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-10-18T09:44:26+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/0c3d8045a52e341f6f6890f67ea70989.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-10-18T09:45:08+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-10-18T15:34:14+08:00 ] 127.0.0.1 /admdgjmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-10-18T15:34:15+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-10-18T15:34:21+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2017-10-18 15:34:21','115.60.188.139','admin','1') [ RunTime:0.0003s ]
+
+[ 2017-10-18T15:34:22+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-10-18T15:34:22+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-10-18T15:34:22+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-10-18T15:34:22+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-10-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-10-19 00:00') ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0013s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0012s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2834 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2835 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2836 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2837 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2838 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2839 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2840 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2841 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2842 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2843 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-10-18T15:34:32+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-10-18T15:36:21+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-10-18T15:40:41+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-10-18T15:40:52+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-10-18T15:40:53+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-10-18T15:41:44+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-10-18T15:41:45+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-10-18T15:41:57+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-10-18T15:43:31+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-10-18T15:43:36+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-10-18T15:43:37+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-10-18T15:43:39+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-10-18T15:43:40+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-10-18T15:43:43+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-10-18T15:43:44+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-10-18T15:43:59+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-10-18T15:43:59+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-10-18T15:43:59+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-10-18T15:43:59+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-10-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-10-19 00:00') ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0014s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0006s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2835 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2836 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2837 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2838 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2839 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2840 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2841 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2842 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2843 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-10-18T15:44:03+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-10-18T15:44:10+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-10-18T15:44:11+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-10-18T15:44:54+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined index: jl_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2098 行.
+NOTIC: [8] Undefined index: masses_share /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2101 行.
+NOTIC: [8] Undefined index: shangcheng /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-10-18T15:44:55+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-10-18T15:47:57+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-10-18T15:48:27+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-10-18T15:48:43+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-10-18T15:51:32+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/onekey_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ot_match` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_match` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: page1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/7aa45397dd2940e288769e494ebddc93.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-10-18T15:51:33+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ot_pdb` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pdb` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_pdb` LIMIT 0,15   [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 23 行.
+NOTIC: [8] Undefined variable: list /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-10-18T15:51:33+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 2127 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 1 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Uninitialized string offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 721 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 743 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 782 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 790 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 798 行.
+NOTIC: [8] Undefined offset: 7 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 806 行.
+NOTIC: [8] Undefined offset: 8 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 814 行.
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 822 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdd7281d8e624fcbdc37714468b06b6f.php 第 851 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-10-18T16:02:57+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+
+[ 2017-10-18T16:02:58+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-10-18T16:03:04+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0008s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2017-10-18 16:03:04','115.60.188.139','admin','1') [ RunTime:0.0002s ]
+
+[ 2017-10-18T16:03:05+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-10-18T16:03:05+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-10-18T16:03:06+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-10-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-10-19 00:00') ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0014s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0019s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0017s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2835 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2836 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2837 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2838 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2839 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2840 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2841 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2842 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2843 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-10-18T16:03:06+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-10-18T16:03:06+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-10-18T16:03:48+08:00 ] 127.0.0.1 /admdgjmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-10-18T16:03:48+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-10-18T16:03:48+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE (  UNIX_TIMESTAMP('2017-10-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2017-10-19 00:00') ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0011s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0011s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0012s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'jlj' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tjj' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0017s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `ot_userget` WHERE `UG_dataType` = 'tgbz' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ot_user_jj` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `zt` <> '1'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: i /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 174 行.
+SQL: SELECT * FROM `ot_user_jj`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2832 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2833 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2834 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2835 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2836 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2837 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2838 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2839 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2840 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2841 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2842 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user_jj` WHERE `id` = 2843 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 45 行.
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/9ae0c6321b7e9f4ae91a052f17ee4553.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-10-18T16:03:48+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-10-18T16:03:49+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-10-18T16:05:11+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/0c3d8045a52e341f6f6890f67ea70989.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-10-18T16:05:15+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/pin_add_cl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 1158 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18439895928' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '194e826549b2c0c9d0fc9266084d5e82' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','194e826549b2c0c9d0fc9266084d5e82','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'cb3fe11e5ca6ad531ffe7311e1992a3e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','cb3fe11e5ca6ad531ffe7311e1992a3e','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'e362c48fb9f47e9e88a8322a48eef94b' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','e362c48fb9f47e9e88a8322a48eef94b','0','2017-10-18 16:05:15') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '47d2815d8b6050e986bfa3d487dd035c' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','47d2815d8b6050e986bfa3d487dd035c','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '50356369c14e1b4709eaa49756e8908d' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','50356369c14e1b4709eaa49756e8908d','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'dc66516cf52360d7ca3630c6e7084e74' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','dc66516cf52360d7ca3630c6e7084e74','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '572f388644b7e8d900c92d6fd35e04d3' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','572f388644b7e8d900c92d6fd35e04d3','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '3ec434d3925fb182a63fec83ed82da58' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','3ec434d3925fb182a63fec83ed82da58','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '0cfc40f2e69cfadef12b9d562a36b366' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','0cfc40f2e69cfadef12b9d562a36b366','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'ec8991b67fbd6f156047876962026c72' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ot_pin` (`user`,`pin`,`zt`,`sc_date`) VALUES ('18439895928','ec8991b67fbd6f156047876962026c72','0','2017-10-18 16:05:15') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-10-18T16:05:16+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/0c3d8045a52e341f6f6890f67ea70989.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-10-18T16:05:17+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-10-18T16:05:29+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/user_xg/user/18439895928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18439895928' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: UE_status /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/fdecce1d2352835d47fe59d85dad0b52.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-10-18T16:05:39+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/jbzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/336c5ae53c404f37e07086b9df9e4720.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-10-18T16:05:43+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-10-18T16:05:56+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `ot_pdb` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pdb` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_pdb` LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 23 行.
+NOTIC: [8] Undefined variable: list /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-10-18T16:06:02+08:00 ] 127.0.0.1 /admdgjmin.php/Home/Index/pdbadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `ot_pdb` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: UPDATE `ot_user` SET `ue_pdb`=ue_pdb+100 WHERE `UE_account` = '18439895928' [ RunTime:0.2091s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18439895928' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `ot_pdb` (`UE_id`,`UE_account`,`give_time`,`UE_pdb`,`UE_theme`) VALUES ('62268','18439895928','2017-10-18 16:06:02','100','会员') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-10-18T16:06:03+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `ot_pdb` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pdb` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_pdb` LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: userdata /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 23 行.
+NOTIC: [8] Undefined variable: list /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/655af626ef4dd428c77bc63f78e80dc5.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-10-18T16:06:31+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /data/wwwroot/mdgj/snadmin/Home/Controller/IndexController.class.php 第 441 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-10-18T16:09:24+08:00 ] 127.0.0.1 /admdgjmin.php/home/index/pin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: page /data/wwwroot/mdgj/snadmin/Runtime/Cache/Home/0c3d8045a52e341f6f6890f67ea70989.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+

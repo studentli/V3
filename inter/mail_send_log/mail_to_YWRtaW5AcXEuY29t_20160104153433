@@ -1,0 +1,15 @@
+Trying to smtp.163.com:25
+220 163.com Anti-spam GT for Coremail System (163com[20141201])
+Connected to relay host smtp.163.com
+> HELO localhost
+250 OK
+> AUTH LOGIN d3kxNjAxMDRAMTYzLmNvbQ==
+334 UGFzc3dvcmQ6
+> bm5vd3d4ZGdkY3JrY3R4Zw==
+235 Authentication successful
+> MAIL FROM:<541904930@qq.com>
+553 Mail from must equal authorized user
+Error: Remote host returned "553 Mail from must equal authorized user"
+Error: Error occurred while sending MAIL FROM command.
+Error: Cannot send email to <admin@qq.com>
+Disconnected from remote host

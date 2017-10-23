@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html style="font-size:62.5%">
+
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$usertitle}</title>
+
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+	<script src="/cssmmm/jquery.min.js"></script>
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="/cssmmm/rem.js"></script>
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+ <script src="/cssmmm/jquery.min.js"></script>
+ 
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link href="/css1/ind.css" rel="stylesheet" type="text/css">
+<link href="/css1/ind-style.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+	ul,li{list-style: none;margin:0px;padding:0px;}
+#header{background:#f5f5f9!important}
+.top_box{ width: 100%; margin:0px; padding:0px; height: 50px; position: fixed; left:0px; top:0px; background-color: #fff;z-index:55;}
+.top_box a{ width: 50px; line-height:50px; height: 50px; color:#333;font-size: 16px;}
+.towNav{ width: 100%; float: left;}
+.towNav .small{ width: 30%; float: left; text-align:center; font-size: 14px; color:#333; border:1px solid #888; padding:0px; margin:1.5%;}
+.towNav .small a{ width: 100%; text-align:center; font-size: 14px; color:#333; float: left; padding:0px;}
+.towNav .small a dt{ width: 100%; text-align: center; padding:0px; line-height: 40px;}
+.topbanner{ width: 96%;margin-left: 2%;}
+.topbanner a{ width: 100%; height: 200px;}
+.topbanner a img{ width: 100%;height:100%;}
+.contentBox{ width: 96%; margin-left: 2%;}
+.contentBox .hBox{ width: 100%; height: 40px;}
+.contentBox .hBox dl{margin:0px; padding:0px; line-height: 20px;}
+.contentBox .hBox dt{margin:0px; padding:0px; line-height: 20px;color:#333;}
+.bigBox{ width: 100%; margin-top: 20px;height:auto;overflow: hidden;margin-bottom: 60px;}
+.smallBox{ width: 300px; height: 360px;margin:0 auto;}
+.smallBox .small_box{ width: 100%;margin:0px; padding:0px;margin-bottom: 15px;}
+.smallBox .small_box a{ width:300px; height: 300px; float: left; display: block;}
+.smallBox .small_box a img{ width: 100%; height: 100%; float: left;}x; font-size: 14px; text-align: left;}
+.smallBox .small_box dt{ width: 100%; float: left; height: 30px; line-height: 30px; font-size: 14px; text-align: right;}
+.smallBox .small_box dl{ width: 100%; float: left; height: 30px; line-height: 30px; font-size: 14px; text-align: right;}
+</style>
+<body style="background:#f5f5f9; ">
+ <header class="head" style="background-color:#4F98CD; line-height: 40px;height:40px;">
+       <!-- <a href="/" style="line-height:normal;
+        width:25px; height:25px; vertical-align: middle; " class="head_left">
+            <img src="/img1/fh.png" style=" width:100%; height:100%; " alt="" />
+        </a>-->
+        <a class="head_mid" style="color:#fff;width:25%;float: left;font-size: 14px;line-height: 40px;text-align: center;" href="/shop/index/index">商城</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingCart">购物车</a>
+        <a class="" style="color:#fff;float: left;width:25%;text-align: center;font-size: 14px;line-height: 40px;" href="/Shop/index/shoppingList">订单列表</a>
+        <a class="head_right" href="/" style="color:#fff;width:25%;text-align: center;float: right;font-size: 14px;line-height: 40px;">首页</a>
+ </header>
+<div class="main" style=" margin:0px; width:100%;">
+<div class="bannerBox" style="margin-top:10px;">
+ 
+      <!--   <div style="float:right;width:100%;"><a href="__CONTROLLER__/historyOrderform"><h1 style="float:right;color:red;margin-right:20px;">购物明细</h1></a></div> -->
+     	<div class="towNav">
+		<div class="small">
+                	<a href="__MODULE__/index/listProject?pid={$v.id}">
+                        <dt>全部分类</dt>
+                         
+                        <div class="clearfix"></div>
+                	</a>
+                 </div>
+			<foreach name="title" item="v">
+                <div class="small"  style=" width:30%; float: left;">
+                	<a href="__MODULE__/index/listProject?pid={$v.id}">
+                        <dt>{$v.name}</dt>
+                         
+                        <div class="clearfix"></div>
+                	</a>
+                 </div>
+           </foreach>
+            <!--<div class="small" style="width:100%;text-align:center;">
+                	<a style="width:100%;text-align:center;">
+                        <dt style="width:100%;text-align:center;">︾</dt>
+                        <dd></dd>
+                        <div class="clearfix"></div>
+                	</a>
+                 </div>-->
+            
+         </div>
+		 <div class="topbanner">
+		<a href="#">
+            <img src="/images/banner0.jpg">
+            <img src="/images/banner1.jpg">
+            <img src="/images/banner2.jpg">
+            <img src="/images/banner3.jpg">
+            <img src="/images/banner4.jpg">
+			<!-- <img  src="{$shop_hot[0]['imagepath']|default='__ROOT__/images/banner0.jpg'}">
+            <img  src="{$shop_hot[1]['imagepath']|default='__ROOT__/images/banner1.jpg'}">
+            <img  src="{$shop_hot[2]['imagepath']|default='__ROOT__/images/banner2.jpg'}">
+            <img  src="{$shop_hot[3]['imagepath']|default='__ROOT__/images/banner3.jpg'}">
+            <img  src="{$shop_hot[4]['imagepath']|default='__ROOT__/images/banner4.jpg'}"> -->
+           
+    	</a>
+		<div class="yuanBox">
+    	<span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="clearfix"></div>
+		</div>
+        </div>
+
+
+</div>
+
+<style>/*.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}*/</style>
+
+<div class="contentBox">
+
+                <div class="hBox">
+                    <dl>商家推荐</dl>
+                    <dt>以真心换真心，给您最正确的选择！</dt>
+            
+                    <div class="clearfix"></div>
+                </div>
+                
+                <div class="bigBox" style="padding-bottom: 60px;">
+                    <div class="smallBox">
+					<empty name="shop_hot">
+					<div style="width:100%;padding:50px;text-align:center;font-size:16px;color:;#DDD">暂无数据</div>
+					<else/>
+                    <foreach name="shop_hot" item="value">
+                        <div class="small_box" style="">
+                            <a href="__MODULE__/index/project?id={$value.id}"><img style=" " src="{$value.imagepath}"></a>
+                            <!-- <dt style=" ">{$value.name}</dt>
+                            <dd style=" "><strong>价格:{$value.price}元</strong></dd> -->
+                            <dt style="margin-left: 15px;font-size:18px;line-height: 30px;color:#333;">{$value.name}</dt>
+                            <dd style="float: left;margin-left: 15px;color:#333;font-size:12px;line-height: 20px;color:red;"><strong>积分:{$value.price}积分/售价:{$value.old_price}元</strong></dd>
+                            <dd style="float: right;margin-right: 15px;color:#333;font-size:14px;line-height: 20px ;color:red;"><strong>库存:{$value.stock}</strong></dd>
+                        </div>                        
+                    </foreach>
+					</empty>
+                            <div class="clearfix"></div>
+                    
+                        
+                      </div>
+                  </div>
+                 <!-- <div class="pages" style="margin:50px 0 ;text-align: center;">{$show}</div>
+      				 	<div class="No_box">
+                
+             
+           
+      </div>-->
+
+</div>
+</div>
+<script>
+$(function(){
+		$(".bannerBox img").hide().eq(0).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(0).addClass(".yuanBox current")
+		var n=0
+		function move(){
+		if(n<$(".bannerBox img").length-1){
+		n=n+1}
+		else{n=0}
+		
+		$(".bannerBox img").hide().eq(n).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(n).addClass(".yuanBox current")
+		}
+		t=setInterval(move,2500)
+		$(".bannerBox").mouseenter(function(){
+		clearInterval(t)
+		}).mouseleave(function(){
+		t=setInterval(move,2500)
+				}
+		
+		)
+		$(".yuanBox span").mouseenter(
+		function(){
+			n=$(this).index()
+		$(".bannerBox img").hide().eq(n).show()
+		$(".bannerBox span").removeClass(".yuanBox current")
+		$(this).addClass(".yuanBox current")
+		clearInterval(ting)
+			
+			
+			}
+		
+		
+		
+		)
+	}
+
+		
+
+
+
+
+
+)
+</script>
+<include file="../User/Home/View/wap/bottom.html" />
+</body>
+</html>
+

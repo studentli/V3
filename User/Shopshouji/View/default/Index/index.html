@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--<css>-->
+		<link rel="stylesheet" href="/assets/css/shop.css">
+		<link rel="stylesheet" href="/assets/css/swiper.min.css" />
+		<!-- <script src="/assets/js/jquery.js"></script> -->
+		<script type="text/javascript" src="/assets/js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="/assets/js/swiper.min.js"></script>
+		<title>商城</title>
+	</head>
+	<style>
+	body:before,body:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.samllBox:before,.smallBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.banner:before,.banner:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.contentBox:before,.contentBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_:before,.clear_:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_{
+		float:left;
+	}
+	.smallBox a{
+		display: inline-block;
+	}
+	.pages a{
+	color:#000;
+	}
+	</style>
+	<body style="min-width:1197px;">
+	<div class="top" style="background:#31385e;">
+	 <h1>全部商品分类</h1>
+	 
+	 <div class="nav">
+	 	 <!-- <div style="float:left;"><img src="__ROOT__/images/logo.png"/></div>  -->
+	  <ul class="clear_">	
+	   <li><a href="/Home/Index/home">首页</a></li>
+	 
+	   
+	    <li> 
+	    	<a href="__MODULE__/index/index">商城 <i></i></a>
+	    
+	   </li>
+	    <li> 
+	    	<a href="__MODULE__/index/shoppingCart">购物车 <i><img src="__ROOT__/images/gwc.png" alt="" /></i></a>
+	    
+	   </li>
+	   <li> 
+        <a href="__MODULE__/index/shoppingList">订单列表</a>
+      
+     </li>
+	   
+	    <li><a href="/Home/Login/logout">退出</a></li>
+	     
+	    
+	  </ul>
+	 </div>
+	</div>	
+	<script>
+	 $(document).ready(function(){
+	  $(".nav ul li").mouseenter(function(){
+	  $(this).addClass("current");
+	  })
+	 $(".nav ul li").mouseleave(function(){
+	  $(this).removeClass("current");
+	  })
+	 })
+	</script>
+	<div class="banner" style="margin-top: 1px;">
+			<div class="nav_two">
+				<foreach name="title" item="v">
+                
+                	<a href="__MODULE__/index/listProject?pid={$v.id}">
+                       <span>{$v.name}</span>
+                        <span class="nav_r"></span>
+                	</a>
+                </foreach>				
+			</div>
+			<div class="banner_img">
+					 	<div class="swiper-container banner_images">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"> <img src="__ROOT__/images/banner1.png" height="460" width="100%"></div>
+				            <div class="swiper-slide"><img src="__ROOT__/images/banner2.png" height="460" width="100%"></div>
+				            <div class="swiper-slide"><img src="__ROOT__/images/banner3.png" height="460" width="100%"></div>
+				     
+	
+				        </div>
+				        <!-- 轮播点 -->
+				        <!--<div class="swiper-pagination"></div>-->
+				        <!-- 按钮 -->
+				        <!--<div class="swiper-button-next"></div>-->
+				        <!--<div class="swiper-button-prev"></div>-->
+				   </div>
+			</div> 
+				
+<div class="contentBox" style="overflow:hidden;width:100%;height:auto;">
+
+                <div class="hBox" style="padding-left:20px;">
+                    <dl style="font-size:24px;font-weight:bold;float:left;line-height:36px;">商家推荐</dl>
+                    <dt style="float:left;color:#31385e;line-height:36px;padding-left:15px;">以真心换真心，给您最正确的选择！</dt><br>
+            
+                    <div class="clearfix" style="clear:both;height:20px;"></div>
+                </div>
+                
+                <div class="bigBox">
+                    <div class="smallBox">
+					<empty name="shop_hot">
+					<div style="width:100%;padding:50px;text-align:center;font-size:16px;color:;#DDD">暂无数据</div>
+					<else/>
+                    <foreach name="shop_hot" item="value">
+                        <!-- <div class="small_box" style="margin-left:40px;margin-bottom:20px;float:left;border:2px solid #ccc;border-radius:5px;">
+                                                    <a href="__MODULE__/index/project?id={$value.id}"><img width="300" height="200" style="margin-top:40px;margin-bottom:20px;" src="{$value.imagepath}"></a>
+                                                    <dt style="margin-left:20px">{$value.name}</dt>
+                                                    <dd style="margin-right:30px;color:red;"><strong>积分:{$value.price}积分/售价:{$value.old_price}元</strong></dd>
+                                                    <dd style="margin-left:30px;color:red;"><strong>库存:{$value.stock}</strong></dd>
+                                                </div> -->
+                                                <div class="small_box" style="margin-left:40px;margin-bottom:20px;float:left;border:2px solid #ccc;border-radius:5px;">
+                            <a href="__MODULE__/index/project?id={$value.id}"><img width="300" height="200" style="margin-top:40px;margin-bottom:20px;" src="{$value.imagepath}"></a>
+                            <dt style="margin-left: 30px;font-size: 18px;font-weight: 600;line-height: 30px;color: #333;">{$value.name}</dt>
+                            <dd style="    float: left;font-size:14px;line-height: 20px;color:#333;color:red;
+    margin-left: 30px;"><strong>积分:{$value.price}积分/售价:{$value.old_price}元</strong></dd>
+                             <dd style="margin-right:30px;font-size:14px;line-height: 20px; float: right;color:red;"><strong>库存:{$value.stock}</strong></dd>
+                        </div>                         
+                    </foreach>
+					</empty>
+                            <div class="clearfix"></div>
+                    
+                        
+                      </div>
+                  </div>
+                  <div class="pages" style="margin:50px 0 ;text-align: center;">{$show}</div>
+      				 	<div class="No_box">
+                
+             
+           
+      </div>
+
+</div>
+<script>
+$(function(){
+		$(".bannerBox img").hide().eq(0).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(0).addClass(".yuanBox current")
+		var n=0
+		function move(){
+		if(n<$(".bannerBox img").length-1){
+		n=n+1}
+		else{n=0}
+		
+		$(".bannerBox img").hide().eq(n).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(n).addClass(".yuanBox current")
+		}
+		t=setInterval(move,2500)
+		$(".bannerBox").mouseenter(function(){
+		clearInterval(t)
+		}).mouseleave(function(){
+		t=setInterval(move,2500)
+				}
+		
+		)
+		$(".yuanBox span").mouseenter(
+		function(){
+			n=$(this).index()
+		$(".bannerBox img").hide().eq(n).show()
+		$(".bannerBox span").removeClass(".yuanBox current")
+		$(this).addClass(".yuanBox current")
+		clearInterval(ting)
+			
+			
+			}
+		
+		
+		
+		)
+	}
+
+		
+
+
+
+
+
+)
+
+
+</script>
+
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: true
+    });
+    </script>
+	</body>
+	</html>
+	

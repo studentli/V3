@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<style>
+body,dd,dt,dl,p,h1,h2,ul{margin:0;}
+li,ul{list-style:none;padding:0;}
+dd,dt{padding:0;}
+.clearfix{clear:both;}
+span{display:block;}
+*{font-family:"微软雅黑"}
+a{ text-decoration:none;color:#333;}
+img,span{display:block;}
+
+.bannerBox{background-color:#fff;margin-left:auto;margin-right:auto;position:relative;}
+.image{width:460px;height:400px;float:left;overflow:hidden;}
+.image img{width:460px;}
+.towNav{width:584px;height:400px;margin-left:40px;float:left;}
+.towNav h1{font-size:28px;line-height:68px;}
+.towNav .text{width:36px; border-radius:6px;margin-left:6px;height:22px;}
+.towNav .bu{height:9px;weidth:9px; border-radius:4px;margin-left:6px;}
+.towNav dl{background-color:rgba(255,255,255,0.5);}
+.towNav p{ font-family:"宋体";line-height:30px;font-size:14px;}
+.topp{padding-top:16px;}
+.fenjie{width:584px;overflow:hidden;padding-top:6px;padding-bottom:36px;}
+.towNav dt{margin-top:99px;}
+.towNav dt span{margin-top:12px;}
+.towNav dt .butt{margin-top:0;}
+.towNav dd{margin-left:26px;margin-right:auto;margin-top:99px;}
+.towNav dd span{padding:16px;background-color:#999;margin-left:36px;padding-left:66px;padding-right:66px;}
+.hBox{margin-top:0px;margin-bottom:16px;}
+.hBox h1{font-size:18px;}
+.content p{margin-left:19px;margin:12px;}
+.towNav h2{font-size:18px;font-weight:normal;}
+.duo{float:right;border:1px solid #F00;padding:6px;font-size:16px;line-height:16px; border-radius:6px;margin:9px;}
+.towNav span{float:left;}
+.tuijian{width:160px;float:right;border-left:#CCC 2px solid;padding-left:16px;position:absolute;top:0;right:0;}
+.tuijian p{ text-align:center;}
+.tuijian img{width:160px;height:130px;}
+.tuijian h2{border-bottom:1px solid rgba(255,0,0,0.3);font-size:12px; font-weight:normal;background-color:#CCC;}
+.content h3{font-size:16px;}
+.bannerBox p{padding-top:9px;padding-bottom:6px;}
+
+.button{border:1px solid #999;width:120px;margin-left:auto;margin-right:auto;margin-top:16px;margin-bottom:16px;}
+.button a{font-size:14px;padding-left:10px;padding-right:6px;float:left;line-height:18px;border:1px solid #666;}
+.button a:hover{background-color:#666;}
+.contentBox
+  {width:1300px;
+  margin-left:auto;
+  margin-right:auto;}
+.content{border:1px solid #CCC; border-radius:4px;background:#FFE;}
+
+
+</style>
+<head>
+<meta charset="utf-8">
+<title>商品确认</title>
+   <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+
+ <script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+<script src="jquery.js"></script>
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+   <link rel="stylesheet" href="/assets/styles/style.css">
+	<link rel="stylesheet" href="/assets/css/shop.css">
+<script type="text/javascript">
+  function addOrderform(){
+    // truename = $("#truename").val();
+    address = $("#address").val();
+    sum = $("#sum").val();
+    location.href = '__CONTROLLER__/doconfirm/address/'+address+'/sum/'+sum;
+  }
+</script>
+</head>
+<style>
+.an{z-index:999;position:absolute;}
+.an ul li{clear:both;}
+body:before,body:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.samllBox:before,.smallBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.banner:before,.banner:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.contentBox:before,.contentBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_:before,.clear_:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_{
+		float:left;
+	}
+	.smallBox a{
+		display: inline-block;
+	}
+	.buy_class:before,.buy_class:after{
+		content: "";
+		display: block;
+		clear:both;
+	}
+</style>
+<body style="min-width:1197px;">
+<div class="top" style="background:#FF2A3A;">
+	 <h1>全部商品分类</h1>
+	 
+	 <div class="nav">
+	 	<div style="float:left;"><img src="__ROOT__/images/logo.png"/></div>
+	  <ul class="clear_">	
+	   <li><a href="/Home/Index/home">首页</a></li>
+	 
+	   
+	    <li> 
+	    	<a href="__MODULE__/index/index">商城 <i></i></a>
+	    
+	   </li>
+	    <li> 
+	    	<a href="__MODULE__/index/shoppingCart">购物车 <i><img src="__ROOT__/images/gwc.png" alt="" /></i></a>
+	    
+	   </li>
+	   <li> 
+        <a href="__MODULE__/index/shoppingList">订单列表</a>
+      
+     </li>
+	   
+	    <li><a href="/Home/Login/logout">退出</a></li>
+	    
+	  </ul>
+	 </div>
+	</div>
+	<script>
+	 $(document).ready(function(){
+	  $(".nav ul li").mouseenter(function(){
+	  $(this).addClass("current");
+	  })
+	 $(".nav ul li").mouseleave(function(){
+	  $(this).removeClass("current");
+	  })
+	 })
+	</script>
+
+
+<div class="bannerBox" style="margin-top:30px;position:static;">
+	
+	
+	<!--商品列表-->
+     <foreach name="list" item="v">
+     <div class="towNav" style="width:80%;margin:0 auto;float:none;">
+		<div class="image" style="">
+    <img src="__ROOT__{$aa1|cartpath=$v['tid'],###}">
+  	</div>
+  <div style="overflow:hidden;text-indent:20px;">
+          <h1>{$v.project}</h1>
+        
+          <!-- <dl> -->
+                <p>价格：<b style="color:red;">￥{$v.price}</b></p>
+            
+         
+        <!--   </dl> -->
+         <!--  <dt> -->
+    
+              <span>数量</span>
+              <form>
+                <span style="padding:0px 15px;">共{$v.count}件</span>
+                <div class="clearfix"></div>
+              </form>
+              <span>总价格</span>
+              <form>
+                <span style="padding:0px 15px;">{$v['count']*$v['price']}</span>
+                <div class="clearfix"></div>
+              </form>
+          <!-- b</dt> -->
+				
+              
+              <div class="clearfix"></div>
+			  			<!--<span>注意：商城币将直接扣除</span>-->
+              <div class="clearfix"></div>
+				</div>
+            
+      </div>
+      </foreach>
+      <!--商品列表结束-->
+      
+      
+      
+      
+      
+      
+      
+      <div class="buy_box" style="width:80%;margin:0 auto;text-align:center;">
+      <div class="buy_class"  style="text-align:center;">
+          <?php $settings = include( APP_PATH . 'Home/Conf/settings.php' ); ?>
+					<dl style="float:left;margin-right:20px;margin-top:10px;">支付商城币 {$sumprice}</dl>
+					<input type="hidden" value="{$sumprice}" id="sum">
+					
+					<form >
+              <div style="text-align: center;float:left;margin-right:20px;margin-top:10px;"> 收货人：<?php $user = M('user')->where(array("UE_account" => $_SESSION['uname']))->find();
+                        echo $user['ue_truename'];?></div>
+                <div style="text-align: center;float:left;margin-right:20px;margin-top:10px;">收货地址：<input name="address" type="text" id="address"></div>
+                <div style="text-align: center;float:left;margin-right:20px;margin-top:10px;">收货人电话：<?php
+                        echo $user['ue_phone'];
+               ?>
+               </div>
+             </form>
+             <span class="duo" style="float:right;border:0px;color:#fff;text-indent:0px;margin-left:;display:inline-block;text-align:center;background-color:#FF2A3A;cursor:pointer;" onclick="addOrderform()">确认购买</span>
+				</div>
+         
+
+	</div>
+
+</div>
+
+</body>
+</html>

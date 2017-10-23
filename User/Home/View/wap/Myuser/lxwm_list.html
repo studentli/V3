@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="/css/mui.min.css" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" />	 
+		<title>V3财富</title>
+		<style>
+.top_list{display:none;background:#4096ee;min-height:200px;width:150px;z-index:99;border-radius:0;position:fixed;top:45px;right:1px} 
+.menu_active{display:block;}
+.mui-table-view-cell{text-align: center;color:#fff;}
+.liuyan_list{padding:11px 15px;height:auto;overflow:hidden;background: #fff;border-top:1px solid #ddd;
+margin:0px;border-bottom:1px solid #ddd;margin-bottom: 2px;}
+.liuyan_list li{color:#8f8f94;font-size: 14px;line-height: 24px;padding-left: 10px;margin:0px;}
+		</style>
+	</head>
+	<body style="background: #fff;">
+		<header class="mui-bar mui-bar-nav" style="background: #4096ee;">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color:#fff;"></a>
+			<h1 class="mui-title" style="color:#fff;">留言列表</h1>
+			<a id="menu" class="mui-action-menu mui-icon mui-icon-bars mui-pull-right menu" style="color:#fff;font-weight: bold;"></a>
+		</header>
+		<!--右上角弹出菜单-->
+	<include file="Public/menu" /> 
+ 	     
+ 	    <div class="content_con">
+ 	    <foreach name="list" item="vo">
+			<ul class="liuyan_list">
+				<li>留言时间:<span>{$vo['ma_time']}</span></li> 
+				<li>留言标题:<span>{$vo['ma_theme']}</span></li>
+				 <li>问题类别:<span>{$vo['ma_otherinfo']}</span></li> 
+				<li>留言内容:<span>{$vo['ma_note']}</span></li>
+				<li>回复内容:<span>{$vo['ma_reply']}</span></li>
+				<li>回复时间:<span>{$vo['ma_replytime']}</span></li>
+			</ul>
+			</foreach>
+		</div>
+		<include file="Public/footer" />
+		<script src="/js/mui.js"></script>
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script>
+			$(".menu").click(function(){
+				 
+				$(".top_list").toggleClass("menu_active");
+				 
+			});
+			 
+		</script>
+	</body>
+</html>

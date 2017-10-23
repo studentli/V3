@@ -1,0 +1,198 @@
+[ 2017-10-24T15:01:23+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:02:06+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:05+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:11+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:12+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:14+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:17+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:06:28+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:07:08+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:07:12+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:07:15+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:07:18+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:08:28+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:08:36+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:12:14+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:12:16+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:13:29+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:26+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:28+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:29+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:35+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:37+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:39+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:45+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002682s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:15:48+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:17:10+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:17:20+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:17:22+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:18:45+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:19:44+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:19:48+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:20:05+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-10-24T15:20:10+08:00 ] 127.0.0.1 /assets/vendor/bootstrap/dist/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+ERR: 无法加载模块:Assets
+

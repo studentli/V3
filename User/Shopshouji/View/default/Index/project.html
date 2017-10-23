@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<style>
+body,dd,dt,dl,p,h1,h2,ul{margin:0;}
+li,ul{list-style:none;padding:0;}
+dd,dt{padding:0;}
+.clearfix{clear:both;}
+span{display:block;}
+*{font-family:"微软雅黑"}
+a{ text-decoration:none;}
+img,span{display:block;}
+
+.bannerBox{background-color:#fff;margin-left:auto;margin-right:auto;position:relative;}
+.image{width:460px;height:400px;float:left;overflow:hidden;}
+.image img{width:460px;}
+.towNav{width:584px;height:400px;margin-left:40px;float:left;}
+.towNav h1{font-size:28px;line-height:68px;}
+.towNav .text{width:36px; border-radius:6px;margin-left:6px;height:22px;}
+.towNav .bu{height:9px;weidth:9px; border-radius:4px;margin-left:6px;}
+.towNav dl{background-color:rgba(255,255,255,0.5);}
+.towNav p{ font-family:"宋体";line-height:30px;font-size:14px;}
+.topp{padding-top:16px;}
+.fenjie{width:584px;overflow:hidden;padding-top:6px;padding-bottom:36px;}
+.towNav dt{margin-top:99px;}
+.towNav dt span{margin-top:12px;}
+.towNav dt .butt{margin-top:0;}
+.towNav dd{margin-left:26px;margin-right:auto;margin-top:99px;}
+.towNav dd span{padding:16px;background-color:#999;margin-left:36px;padding-left:66px;padding-right:66px;}
+.hBox{margin-top:0px;margin-bottom:16px;}
+.hBox h1{font-size:18px;}
+.content p{margin-left:19px;margin:12px;}
+.towNav h2{font-size:18px;font-weight:normal;}
+.duo{float:right;border:1px solid #31385e;padding:6px;font-size:16px;line-height:16px; border-radius:6px;margin:9px;}
+.towNav span{float:left;}
+.tuijian{width:160px;float:right;border-left:#CCC 2px solid;padding-left:16px;position:absolute;top:0;right:0;}
+.tuijian p{ text-align:center;}
+.tuijian img{width:160px;height:130px;}
+.tuijian h2{border-bottom:1px solid rgba(255,0,0,0.3);font-size:12px; font-weight:normal;background-color:#CCC;}
+.content h3{font-size:16px;}
+.bannerBox p{padding-top:9px;padding-bottom:6px;}
+
+.button{border:1px solid #999;width:120px;margin-left:auto;margin-right:auto;margin-top:16px;margin-bottom:16px;}
+.button a{font-size:14px;padding-left:10px;padding-right:6px;float:left;line-height:18px;border:1px solid #666;}
+
+.contentBox
+  {width:1300px;
+  margin-left:auto;
+  margin-right:auto;}
+.content{border:1px solid #CCC; border-radius:4px;background:#FFE;}
+
+.an{z-index:999;position:absolute;}
+.an ul li{clear:both;}
+</style>
+<head>
+<meta charset="utf-8">
+		<title>商城</title>
+   <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+  <script src="/cssmmm/jquery.min.js"></script>
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+
+ <script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+	<link rel="stylesheet" href="/assets/css/shop.css">
+	
+<script type="text/javascript">
+  function confirms(){
+    var count = $('#count').val();
+    location.href="__CONTROLLER__/confirmProject1/id/{:I('get.id')}/count/"+count;
+  }
+</script>
+<script type="text/javascript">
+  function confirm(){
+    var count = $('#count').val();
+    location.href="__CONTROLLER__/confirmProject/id/{:I('get.id')}/count/"+count;
+  }
+</script>
+</head>
+<style>
+/*li,a{font-size:16px!important}
+li:hover a{color:#fff!important}*/
+body:before,body:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.samllBox:before,.smallBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.banner:before,.banner:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.contentBox:before,.contentBox:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_:before,.clear_:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clear_{
+		float:left;
+	}
+	.smallBox a{
+		display: inline-block;
+	}
+</style>
+<body style="min-width:1197px;">
+
+<div class="top" style="background:#31385e;">
+	 <h1>全部商品分类</h1>
+	 
+	 <div class="nav">
+	 	<!-- <div style="float:left;"><img src="__ROOT__/images/logo.png"/></div> -->
+	  <ul class="clear_">	
+	    <li><a href="/Home/Index/home">首页</a></li>
+	 
+	   
+	    <li> 
+	    	<a href="__MODULE__/index/index">商城 <i></i></a>
+	    
+	   </li>
+	    <li> 
+	    	<a href="__MODULE__/index/shoppingCart">购物车 <i style="display:inline-block;"><img  src="__ROOT__/images/gwc.png" alt="" /></i></a>
+	    
+	   </li>
+	   <li> 
+        <a href="__MODULE__/index/shoppingList">订单列表</a>
+      
+     </li>
+	   
+	    <li><a href="/Home/Login/logout">退出</a></li>
+	  </ul>
+	 </div>
+	</div>	
+	<script>
+	 $(document).ready(function(){
+	  $(".nav ul li").mouseenter(function(){
+	  $(this).addClass("current");
+	  })
+	 $(".nav ul li").mouseleave(function(){
+	  $(this).removeClass("current");
+	  })
+	 })
+	</script>
+<div class="main" style="margin-top:30px;z-index:1;position:relative">
+
+<div class="bannerBox">
+  <div class="image" style="margin-left:10%;">
+    <img src="{$arr.imagepath}">
+  </div>
+    
+     <div class="towNav">
+ 
+          <h1>{$arr.name}</h1>
+              <p class="topp">&nbsp;</p>
+                <h2>{$arr.title}</h2>
+            <div class="topp">&nbsp;</div>                
+                <p>积分： <b style="color:red;">￥ {$arr.price}积分</b></p>
+                <p>价格： <b style="color:red;">￥ {$arr.old_price}元</b></p>
+                <div class="clearfix"></div>
+    
+              <span>数量</span>
+              <form>
+                <span><input style="text-indent:10px;width:100px;" id="count" size="1" onchange="countnum()" type="number" class="text" value="1"/></span>
+				<script>
+					function countnum(){
+						var val = $("#count").val();
+						if(val<=0){
+							$("#count").val("1");
+						}
+					}
+				</script>
+                <div class="clearfix"></div>
+              </form>
+          <!-- b</dt> -->
+              <span class="duo" style="cursor:pointer;" onclick="confirms()">现金购买</span>
+              <span class="duo" style="cursor:pointer;" onclick="confirm()">积分购买</span>
+              <span class="duo" onclick="delivery({$arr.id})">添加到购物车</span>
+              <p class="topp">&nbsp;</p>
+              <div class="clearfix"></div>
+               <!-- <div class="fenjie">
+                  <img src="/images/xiabianxian.gif">
+                </div> -->
+            
+            <script type="text/javascript">
+            		//添加到购物车
+            		function delivery(ob){
+			        
+			        $.post("__CONTROLLER__/addcart",{id:ob},function(data){
+			        	
+			        	if(data.status == 1){
+			        		alert('添加成功');
+			        	}
+			        	if(data.status == 2){
+			        		alert('商品已添加到购物车');
+			        	}
+			        	if(data.status == 0){
+			        		alert('添加失败');
+			        	}
+			        });
+			    }
+            </script>
+      </div>
+      <div class="tuijian">
+      <foreach name="list" item="value">
+      <a href="shangchengxiangqing.html">
+          <img src="{$value.imagepath}">
+            <h2>{$value.name}</h2>
+            <h2>￥{$value.price}</h2>
+      </a>
+      </foreach>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="contentBox">
+                <div class="hBox">
+                    <h1>产品详情</h1>
+            
+                  
+                </div>
+                
+    <div class="content">
+       
+          <h3>{$arr.title}</h3>
+          <p>{$arr.content}</p>
+        
+      </div>
+
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
